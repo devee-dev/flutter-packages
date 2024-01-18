@@ -4,10 +4,45 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter/material.dart';
-
 import 'src/google_fonts_descriptor.dart';
-import 'src/google_fonts_variant.dart';
+
+class GoogleFontsVariant {
+  const GoogleFontsVariant({
+    required this.fontWeight,
+    required this.fontStyle,
+  });
+
+  final FontWeight fontWeight;
+  final FontStyle fontStyle;
+}
+
+enum FontStyle {
+  /// Use the upright ("Roman") glyphs.
+  normal,
+
+  /// Use glyphs that have a more pronounced angle and typically a cursive style
+  /// ("italic type").
+  italic,
+}
+
+enum FontWeight {
+  w100(100),
+  w200(200), 
+  w300(300),
+  w400(400),
+  w500(500),
+  w600(600),
+  w700(700),
+  w800(800),
+  w900(900),
+  normal(400),
+  bold(700);
+
+  const FontWeight(this.value);
+
+  /// The thickness value of this font weight.
+  final int value;
+}
 
 /// Provides configuration, and static methods to obtain [TextStyle]s and [TextTheme]s.
 ///
