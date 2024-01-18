@@ -12,6 +12,80 @@ import '../google_fonts_variant.dart';
 
 /// Methods for fonts starting with 'E'.
 class PartE {
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> ebGaramondFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '38709eb2e20559e79ddf16c7d8049255c5455d96c6cd4df4d56e7dd60596b657',
+      448404,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7bfd34bfc2e768d7b94fa071c5ef2f5e442e577139d476c97de78cab07624ff1',
+      450680,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '536f367a36b43104614898d326ea1254f1aefc143335eb61f7ad795807236ba8',
+      450940,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '098c3f89784e0eca209de32b500eb727c2f1b0138ecb1ea7f337c97372e94bac',
+      450624,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0124f17935e46d2468775f5054c37b866d7add5d8dd23c2c8f020f7be561da2c',
+      450280,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '8b0d3a369e0b9ecd200d8f805e49f1d5d70a657b51c8db4db4623da67d4387c1',
+      378292,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '6b7565fc4e334957ac56001fdef4d6ddbe0457ee4fc605d458392e14e177722d',
+      380704,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '0dc81ef874ae360e559b0dc6eaec7e6e0d6fe20a061923c15eb115eb3bd2cd7d',
+      381316,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '85016114ec5942e07f68e9d4e13d26cbfee1baa0fcdbf3b9efe39735e75fa94e',
+      381124,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '545027890489756327577ea6df3f71e8799bf1cf9469481752f99b80c5d66f22',
+      380412,
+    ),
+  };
+
   /// Applies the EB Garamond font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -162,6 +236,17 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> eagleLakeFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3b858283e2e07d0e92bc56f64ebe091dc033af33de771cc010e2b533008a0dd4',
+      75472,
+    ),
+  };
+
   /// Applies the Eagle Lake font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -248,6 +333,17 @@ class PartE {
       labelSmall: eagleLake(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> eastSeaDokdoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '48e1272cecdde224dd5f109ba1bde3b5de7554ab0442b0e9683213acde02b410',
+      3175636,
+    ),
+  };
 
   /// Applies the East Sea Dokdo font family from Google Fonts to the
   /// given [textStyle].
@@ -336,6 +432,17 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> eaterFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '19fcfc23e45110c82c2f38020fd194ad2169fad9e64d62bf5b843efea45bf882',
+      82152,
+    ),
+  };
+
   /// Applies the Eater font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -422,6 +529,38 @@ class PartE {
       labelSmall: eater(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> economicaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c24ce23ab6599b28e3b0cc9e9ae30458d216cd9bc6c7cb916aad9d9d0ac0d8e6',
+      24816,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '931fb29df0380d5ece2163387988b13c7b43655686a49efb14a5438fc1d2d535',
+      25764,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9aa41b839712b5e1731268dc5b45b5cf8e088a4c0af363b219a5141a285918a3',
+      25252,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '3a80a4adf7226a3c563bb2ff49ea5352101462206280ba393c8dc456f7d547f2',
+      25060,
+    ),
+  };
 
   /// Applies the Economica font family from Google Fonts to the
   /// given [textStyle].
@@ -530,6 +669,45 @@ class PartE {
       labelSmall: economica(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> eczarFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0e6a26bd0e657fcf2d277b0555a10ff523cabc7ce13644142bdaeb0a014d9592',
+      248344,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5e418b97f8251482f63144fea8cc6fb26e1a918facebb8699479a2cbd036b4eb',
+      249012,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '51df7a413eb2506022dd780c1d18b467a8b1690a980cdd9055136d6df31d73ab',
+      249052,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7f27c484fa72222fb0472f9f5f8cdff14f5382b738afe09952997c768c3410c7',
+      253600,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1be553515c6c8a4712805e543d14ce491d0a8f4943118b4e6c331bd5a03eab77',
+      253888,
+    ),
+  };
 
   /// Applies the Eczar font family from Google Fonts to the
   /// given [textStyle].
@@ -646,6 +824,38 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> eduNswActFoundationFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '12419c2e84c7f2625f31c9e53ae5804c6e7a0cf7e4d00955442aeeeb27c2c4d8',
+      21208,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '68f712d02407b882932967928f32e4e18e4061b7ceb976dc75827045ce145ca1',
+      21432,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4d7d38c1a9bf42850252ba714f721db20cb1af4117266234a4132468d143b502',
+      21464,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8e6d5a1e91ba065a11ea96e99e73d2700a9c53c072b4921b72245aef624d38f6',
+      21384,
+    ),
+  };
+
   /// Applies the Edu NSW ACT Foundation font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -753,6 +963,38 @@ class PartE {
       labelSmall: eduNswActFoundation(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> eduQldBeginnerFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e68ac554d376d0be4102c6d0a5697662844d25fc31591e9065f9ea6c658efc3c',
+      21300,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9c497a35a9d6f2c8062c155e04c85b6334c6786c0f4852b4aa350a7a5742271d',
+      21424,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3105f370bd4245b51fa81b547e811bf18d44850e6be5cab1780dcb50479fa1d6',
+      21428,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e9a0a2cf40a72a69229f962ca6fd62f9d151922cdf4cc587778934eb8ecd75ad',
+      21256,
+    ),
+  };
 
   /// Applies the Edu QLD Beginner font family from Google Fonts to the
   /// given [textStyle].
@@ -862,6 +1104,38 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> eduSaBeginnerFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4195f037ad3de44a106b5160fdda5f9242989fdfbe7badec1b8a2e65fa0522bb',
+      19820,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b81931e8671acea0500fbea4be7134528b9e37333928f80b76c22352beb5c297',
+      19852,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '79a6e4adcdf5f036c437e5ddefcfdcb48b72e5949efd151a9e54c01f8976b44b',
+      19860,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '92e228cb02155243722f45a42e523d044e8fda6f799b7524b194d98c61651599',
+      19780,
+    ),
+  };
+
   /// Applies the Edu SA Beginner font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -969,6 +1243,38 @@ class PartE {
       labelSmall: eduSaBeginner(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> eduTasBeginnerFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3d1d5ba124b10b56e9721a80854dccf76726df4a9485e78747393bb91afebdff',
+      20116,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '11e99202abf736bd6261a740aa1d6aecb61473f7c2c487093a2c4f431ca89354',
+      20140,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '31d6bdf42b46bebf1eaa234ffaf47349aeb1b4f29a4a9619115febc504f79d33',
+      20144,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'afe49cec3acbf9250888c096c8596b6847dd8d2cd1f0a834d65cb6fee5eb299d',
+      20056,
+    ),
+  };
 
   /// Applies the Edu TAS Beginner font family from Google Fonts to the
   /// given [textStyle].
@@ -1078,6 +1384,38 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> eduVicWaNtBeginnerFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ba8ec1690b2af4728f6929a23045cf8b5b0ed1ecf6b34b3f9396e161cb97fb39',
+      20196,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6942edbe9906d81ea89b247ae2aed1d6fe57c113933c92ecf3e83bb01722762c',
+      20272,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'bb17f0fcffc5b049843e2e13b189b25921103c1949d7fa54aa6a0d298d45a6ee',
+      20272,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a86048ad05defe2c58137d22dd619409d753db184f9a6fb90865e688914d1ebf',
+      20156,
+    ),
+  };
+
   /// Applies the Edu VIC WA NT Beginner font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1185,6 +1523,38 @@ class PartE {
       labelSmall: eduVicWaNtBeginner(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> elMessiriFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a571d8e136af17339c2811184197254fd371d7d1042c9fc2e6e0d08a1349cb3b',
+      83700,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3937c674b40c2a27a0e78e738dab1cef40d94148c9a70041f7d37ae1c3fc288a',
+      84120,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f16151cd5d65891079d4b262cd7801000fba7046ad09176c8759832b50f4240e',
+      84244,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'eb22fb98f0cf472083ac102ccf94ed5279d330395c67a659beca6cc22928467b',
+      83860,
+    ),
+  };
 
   /// Applies the El Messiri font family from Google Fonts to the
   /// given [textStyle].
@@ -1294,6 +1664,17 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> electrolizeFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '061301864f942cec3206f6216be568aaee5d02f9f297633ffc8d9142da1d0b1b',
+      23228,
+    ),
+  };
+
   /// Applies the Electrolize font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1380,6 +1761,24 @@ class PartE {
       labelSmall: electrolize(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> elsieFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3fb309aabca6cfccee5f7d6f98c5af435d1e41461f5268d3a09b0d1ddfad5104',
+      34260,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b55c736bb96753da69b0608cda78127720d486287ff7222d161559a8e7ece2bc',
+      35008,
+    ),
+  };
 
   /// Applies the Elsie font family from Google Fonts to the
   /// given [textStyle].
@@ -1475,6 +1874,24 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> elsieSwashCapsFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e76795ae5c03a28fafcf6b411aaa2f0a56d6bf5a5dda52c3d04bab781d6db9c7',
+      35636,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5829bef92683b79a8b784c27e88cce276ff185e119ab76121b6dfa78380c4f01',
+      36248,
+    ),
+  };
+
   /// Applies the Elsie Swash Caps font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1569,6 +1986,17 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> emblemaOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3d31f4b48de9ab1b609f7b65cbd09b91d66eb8c1650df95299970243afaf747d',
+      56192,
+    ),
+  };
+
   /// Applies the Emblema One font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1656,6 +2084,17 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> emilysCandyFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '345aa4c6d86de050ba87f4721f42ca6edf7788f833fb8b74872c98341c9d0daa',
+      234812,
+    ),
+  };
+
   /// Applies the Emilys Candy font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1742,6 +2181,73 @@ class PartE {
       labelSmall: emilysCandy(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> encodeSansFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1786d06d7ebe6f5a17494ce5a5cc2adc50680938731c2ebcbebc18d0e5337ffd',
+      79620,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4e0177e677798b477c083d2a4bd455fe1dfe686ff12a9ebb6acf1644df1e3eb9',
+      80036,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1b31686d9d8999948862168cc0f27b21c10cf4e5d403611a1fae163254b3af0a',
+      80140,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'cfa43a134be926e1220e3cbff4974a0a27611e828dc60b08f2efefab3b9b6742',
+      80168,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '86eb91f4d9294fa3bbc3af3c7931cf0b75630e17ac71c19da8b2d10bf725b25d',
+      80248,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '200f33a76616573b41b800316d2a717e3d7ad54f715d9edbfb4aa11dd3e66dfa',
+      80380,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '384165cb98c576eddd7dab4c383af0e6414d54eefc5de13537412e6276f67336',
+      80632,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'da3da0e6b932f90b840d45ec4035f077c89ada05a4a945d25c8b219a0deeba8b',
+      80880,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '09d2516fd05b5c6752ea157cc983e127e8de5184fc88071284c44ecddc185455',
+      80560,
+    ),
+  };
 
   /// Applies the Encode Sans font family from Google Fonts to the
   /// given [textStyle].
@@ -1886,6 +2392,73 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> encodeSansCondensedFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '32a4d643beae836e02495e4359ca73851bc62d3b2c6627c061971ed2ccedd512',
+      80192,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4707b802a294e2869f197f4872c380c450e87e19ff5733f4a8c84ebd8365faa6',
+      81696,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '98a097efa087c6a845bfb8dd8118f055ea3d07fd29902eb41861f5fecd0f1cdc',
+      81404,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'cf2e49c42240256e5299657666aba1e2e68698c55dab2578bc2f135c0c792b72',
+      81360,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3ab89dab84826394290148ec707d5e265ecc2d5c8dd4222fe294d0334611d8d2',
+      81280,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '704fe1038026f8b9d49ade91acfb1d1f202652cb27681c4bef74e81372755690',
+      81088,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ba516c62a09769502a8c80635ffb54126b1d44b1a5af06942609c0e57748e253',
+      81492,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4ce8a15df6961e1d3a5be8b76b195c5454a59a1b262cba772cf80ec2c2234e88',
+      81976,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '959dbf80c7f97a9b3bedfc3b3eefe14ffc1b49de2e54bc36dde5be7665aef9db',
+      81064,
+    ),
+  };
+
   /// Applies the Encode Sans Condensed font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2028,6 +2601,73 @@ class PartE {
       labelSmall: encodeSansCondensed(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> encodeSansExpandedFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3167c0972395baee92aede3b1f9ff7c41768d92132ce650e8d2b5ac67865f7bc',
+      80520,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '76b4c679c36680a29a304d9d3be38ea108f9d7dde793334e0b3524277f081679',
+      81552,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '393853b7750153821b84eb8e5a00674fc382b507cf362e3d530b44b5d48e020e',
+      81448,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e1ab763f7aa1d4ee4486a538fa590f6f43447c3dd4c27e3b616daf3cad12e22a',
+      81428,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b5ee0cd555e630f1791d365acd73827424898dca6b457e6e085e01c6500feed9',
+      81476,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c55ccc220aec42f27c676b7b9d3d5ce20010a3322e5aae8d3242dcfa6c462afd',
+      81576,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7c78a8901681de4d3cbca7734c6b676ea5a19fb70f71c4e4455d55a59aae2b0b',
+      81856,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f7ec3ea72590b5b97698de613aa4fb9150721a76e2bed9217c50d37f812e4a87',
+      82056,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '79eb9cb36d91e7070d2979961365f39c0c471a38f47cd865d219207ab4e8b82d',
+      81328,
+    ),
+  };
 
   /// Applies the Encode Sans Expanded font family from Google Fonts to the
   /// given [textStyle].
@@ -2172,6 +2812,73 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> encodeSansScFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a3430a2f3702781ea216c14d865642e103efa2cf987996ddd5f56aae30b6b6f8',
+      69004,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fa5503146093559c7fe9d6282898aecb3f92a2dc4e8d7ebcdcfb597e0a1507ee',
+      69244,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'eefe70d06647f254380f6eb4e41e74cd684b6c8ba916d2d8ad8e5ceacbf37993',
+      69400,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '375b351973eb04b385c377d67d1a6be9cf9600ef9ef42c3d8f4ebbe602832c42',
+      69452,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fc160b97be579fc6f632cf91a36ab162b88392f17725ce6b79a88aa1dcbe0ffa',
+      69512,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f8bcd464dafdd88997481c2daba069e9eff0712f5809cb95ddba215615e21df3',
+      69632,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7dcfae0425f96a5f2d9c384667d83e2ef72376218805ccfa5cbe4d089554ae96',
+      69856,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b1f72f04bd09bfa24405304c67db08071117aec10e737e4d9a75d89d4e4b4cfe',
+      70004,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5d2ea1773dd9f7fce6559d2d0229979eed2ef64220f12d2eef58ac6a53593d0e',
+      69676,
+    ),
+  };
+
   /// Applies the Encode Sans SC font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2314,6 +3021,74 @@ class PartE {
       labelSmall: encodeSansSc(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> encodeSansSemiCondensedFonts =
+      {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '632d6a8a3a3b6070ecc562fd0a3756e3b38f57733591df51477e5282451c19aa',
+      80156,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd1865faabd988f44ada35843f28cf05194e69fddd65497550670da5266b14f2c',
+      81832,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '177da5b781e416c9084fd7c4d21b2299cca65987d8f2913f1850c0bf3deb56ab',
+      81624,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4a0ba17a56bd6ed75176b03b6572bc41ed7fb01bed84936af108d1afe3d5c9ea',
+      81636,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b39b05f83be1bc32339f483bf98b6d222e1c7e4eebb41e156f565f3885b375a9',
+      81276,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1f6c0f5b469cf3aeceb4301270c1e03a0b3d9f434fdeb8939f04c3d23c36c2cb',
+      81452,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9760fdfa30fd4e220c21577703c55c62cf6a304b9f456a7645e38a455c28066f',
+      81816,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3025eade51c77fd7410a14c586248db6ad12055f1c859c460541e71d3587ab72',
+      82160,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '30feb8bd88c81e54fa9b51d0c4859400e8b74d93574608a397f43dc979111623',
+      81440,
+    ),
+  };
 
   /// Applies the Encode Sans Semi Condensed font family from Google Fonts to the
   /// given [textStyle].
@@ -2462,6 +3237,74 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> encodeSansSemiExpandedFonts =
+      {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '24cf5f96ebfab8974e9d22281b222ec0b53fd93a239f9c7678011413d65d178e',
+      80288,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'bd94b3681c6f145427679b00dd007c89e33f0645afae87cee56f02ff509e3182',
+      81904,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '21fa95fec27006f0dd478162275fc7cb8d194018d6880741c1fc4450921c3ac6',
+      81760,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '57d9c98c58e5acb342059f847b7e6fda31afc5a1e3fcd96159e1777d7611bdc2',
+      81844,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '884d05f8245e0d582416499f4dccc6f2232d6c78583a0f79d17bb6123a5231a2',
+      81508,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2ebaacf4111bc020a52fb29ea96f5258da27806287800aaa287b1f76b15e4e23',
+      81736,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8fc544d86c906e765d26f18446b10d056868d7f1e0da85f81f1824bef961b834',
+      81996,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '986ba3f6c742ae86cec8b92d009b1d0f5ccbb37f97cc3083844abf0bfdae5688',
+      82260,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '334b41368d45e746af2945a52cb48b412194d1db6d4feaef5024ae089f32eedb',
+      81528,
+    ),
+  };
+
   /// Applies the Encode Sans Semi Expanded font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2606,6 +3449,17 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> engagementFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '062895711bee7ca63df3999cf6656f0ab2435ba2091861d21428c1b523c2d83c',
+      73016,
+    ),
+  };
+
   /// Applies the Engagement font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2693,6 +3547,17 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> englebertFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '99cf4ba03fd06ea1dadc9be8da121bd3c4311a3002116e9ef88f121ed52b65b8',
+      50444,
+    ),
+  };
+
   /// Applies the Englebert font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2779,6 +3644,38 @@ class PartE {
       labelSmall: englebert(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> enriquetaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9100f07ac8715b8945f82a9ab2e632126b79351b5a7ff837b937844a5674e134',
+      44204,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '82a44f7df6c429b383636323c1375f420dea8bf53bb953f00eb745357f8f2746',
+      44752,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '09dcb35c96ec6c906a017497f8b280debc73b021016c38f0a23f0d928816dc90',
+      44380,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f52d639d7593820a9c96b0d28fa7c967323dfc10f81d562f1508c7e1a64e28cb',
+      44556,
+    ),
+  };
 
   /// Applies the Enriqueta font family from Google Fonts to the
   /// given [textStyle].
@@ -2888,6 +3785,17 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> ephesisFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '42a02de01e8cbc58acf379f32757e65902e312e7f5225f7658a98f85a4098e17',
+      89276,
+    ),
+  };
+
   /// Applies the Ephesis font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2974,6 +3882,136 @@ class PartE {
       labelSmall: ephesis(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> epilogueFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7f51e229dd565aa0ae565b3c4bc782e585961c60f67d8b8ff42646fb62d3eab9',
+      69580,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '98e48c072ec741339f5d7ab94e0c1d72ee6c0ccb9b8372a39e385d018c2ef205',
+      69700,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '02edb2e1951433b87c040480c9d39fc66f5c04e98166c891ca03571b731e075e',
+      69696,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '89fa3111e07b2fd0ce0654b4162c63501ae0bd6dab54fe8c48735aca30633362',
+      69720,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f986152a602a4b255cc587775522ee854fb2356e37407fa918798b310b7f5087',
+      69828,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f69dc2350a2d9e0b0205d8a1059dd94ae2e384ad3d6f68de0e35ad6c305958d3',
+      70020,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '05b9f07ef1c18dd00732e7ef35809313c9d6d935ab6e9f620140b46510520d72',
+      69944,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'cbe57ac5c61c162a1e1c71057d30ac3d9df786e0d43622c99a9677e8a73c3e67',
+      70128,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7d05593a3e0a1a5c17d04178b18efaecca02379efbb035b1fc30df4a9362a206',
+      70132,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'b4f11f4928feb631ce5a0737580ce351545c0bcaf7927415a259b945e3a56696',
+      69960,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'bc1c12351f2a94faeb25a7629c3fdf8b39a9566856c50df95e9afdd6a4b509a3',
+      70068,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '247e50a0b59cd3d283b0bc0600d61efff94dfc6fadafa8a3103be2e301b90c4a',
+      69988,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'b7140afc275f270dd862eb177d29d032a720c329ad9a9abedb960ff625185683',
+      69856,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '516cb327e7cb068a3703f79f7ef869db98eca188c67f2159c2a8fa76b07af630',
+      70052,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '92fb8d745eae09724f4f95a319c3fd4d76952cee20acc50c552ced8e97d066e6',
+      70128,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ea364d7178f875b1624caecc3ad07f671aabaaefca535be2ab4351db1c36d88f',
+      70160,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'f6c94addfea4c1e81794c426fdbec9e5717c3db88c0009280abe36e9ab01095b',
+      70376,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'b90961f94b327db4d422381e9b2ae897e310767f0347755f8b069c7be50654e8',
+      70260,
+    ),
+  };
 
   /// Applies the Epilogue font family from Google Fonts to the
   /// given [textStyle].
@@ -3181,6 +4219,17 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> ericaOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a624a4cacea2af9dd29569150c252c0f220c1e5d9f4cf7ec754b6f4240d25578',
+      24332,
+    ),
+  };
+
   /// Applies the Erica One font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -3267,6 +4316,17 @@ class PartE {
       labelSmall: ericaOne(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> estebanFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '33469ddbf2f8b25aa9577a76ed3191c10ba359c06541da8ff214fbbb6968d6a6',
+      41436,
+    ),
+  };
 
   /// Applies the Esteban font family from Google Fonts to the
   /// given [textStyle].
@@ -3355,6 +4415,17 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> estoniaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b003ff269142fecb56aa0db798a61c6cba8f997fe1bd5f6081fab3e56133cbc8',
+      383840,
+    ),
+  };
+
   /// Applies the Estonia font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -3441,6 +4512,17 @@ class PartE {
       labelSmall: estonia(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> euphoriaScriptFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '88fa800fab0455764681712d008ac1dba9ac05747e7fd28f652934d143f205bb',
+      36452,
+    ),
+  };
 
   /// Applies the Euphoria Script font family from Google Fonts to the
   /// given [textStyle].
@@ -3529,6 +4611,17 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> ewertFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'da115b98d7d8742466f888773008e288c7baf8d3e0b85546f4d4427044d972cf',
+      68836,
+    ),
+  };
+
   /// Applies the Ewert font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -3615,6 +4708,136 @@ class PartE {
       labelSmall: ewert(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> exoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '21d56c4d49817b3e90700cac3142ec26982b349ef1c2e8932efa005e9197f302',
+      58348,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '948f0b3a4bab5328198e77c12c0531968b33166dfb6260569d42f28205504b9e',
+      58472,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e10dcc6f24a188527917f442ed729e8a797c34070ca069da5f6cc7ef383172c6',
+      58444,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '161268be6c2e68ba078e3874b3af0a47070729592d789e615c479d56ff6c6f4d',
+      58384,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '09b97c1885f29f5737118b963f3812d7f2aa7026f8ca6b0cefaf44ea533ad00c',
+      58404,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5198773805e8b249c4a663d92c396f580f76bd1d9ff863edd3fa07a9745bfaba',
+      58412,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ea55ffe16c5e91601c80e22ff5479c97d167c186148f54338375ecb3d8211ddd',
+      58288,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '72e9adbd9bdcf51dea75af991d0b49c58bad942191d1ed5b1c346279b530304e',
+      58324,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c6beb1f0fd0c4cfc01ab5c33ae600983c61c53e103db72c3bde7ddb1164748ac',
+      58176,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '0119a384951a89fab840621932ce2e2c2b2bbbb84b44d4bd1d1bdd0297a7fe0c',
+      59676,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'aca1107e0174ff23227ec5888a05855d2b8b3e9cdd1408534b78670d5fbc40f9',
+      59844,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '2593b69e890fefe4a0fc4aa442aacf6fb02b099c23a29eeb0b53ddbcd0a6022a',
+      59800,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '751df18ae4d7ee3aafa3760581a59379bca17344f148a4eeac813b37a3a23f5a',
+      59684,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '12d65a8bee6a2d9b6d4cd3bb7b470079c4fe73eb9c06c0f77dd534d75eb33ad5',
+      59760,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'a44442b4129fbb9465556ad42b961c91faebbe5ec76a6eb544e8f1ee0851b18b',
+      59768,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '2d0ff5dc69d6bd2e96a3d57f991c120fd80455c1b07a13a72290dcd520fba03e',
+      59680,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '0c3c44fde5f6daf63c0915940854ca3f8733a9b7bef6cde90fb7129ea22d9812',
+      59720,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'fd16e289052d2abe21e5ef248808eeda054f9972f7595bc11fddbffb6bb2ec4d',
+      59544,
+    ),
+  };
 
   /// Applies the Exo font family from Google Fonts to the
   /// given [textStyle].
@@ -3822,6 +5045,136 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> exo2Fonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8bd69b3928bd1122b43f4394248570af2a60ccb3ee3bef72193b8f430438e5ba',
+      126328,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7fe94874f22aa08225d11034b59522cc26abca35fc77c8c82c4553a0d68c886e',
+      126576,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'cd4b0e7dd2901a30853c81dd1c5ba099063662c98efb6beb593cbb735115a044',
+      126608,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '213b19a1598cb53ee88434865f04fa62be6e674a03023476677a5919bb6390a6',
+      126600,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '47d9424d149e7496e1bae3eb034f62dbcc06e69025182910cf30e8f7a36dda80',
+      126696,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '73ac59303d8a28183ffecfcee5a5e2020e93598d2e574ab9cdf23d8fd4769af1',
+      126728,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '85fcd167f63837ebb1c310a8e83bf1d5039fbbd5a13ac4812691d52817631161',
+      126780,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9ec073a48375b6b0462702753eea7be7a0e93ce5401331bf787c39e769ed8cb2',
+      126864,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f4b6635c03e94461a065b153284f9aecacccc15b23105f51b941fc954e8c1a15',
+      126724,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '53d9e5084f81f02ed867f67200271d52f330d02f5be889facb577b1305923f64',
+      126132,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'f5c2092c03e3f18dbff0aa8cb221ce70d1a1f5b73b97e50fcf1eac8546972dde',
+      126424,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'b59d7eb01c4c710c37519c8ec4cd3ec8506ade2fe8ecb507325c8f615bdbc636',
+      126448,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'f9b6f1c55318f4ce15b3addb5e3a05f7b152e15593a4494c6b62eaea21126a07',
+      126324,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '6dc30d80925ac6ae73b0174e5e585c171220e72c17ef1add9b016260f12f39a7',
+      126464,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ad64200d4933cb65a54960cfee7dca5eff13592ff68ed20070d7ddb3b3a4d22c',
+      126536,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '04139976713c23e823c56c67e14067b1037bf7aac68bcc630e0aaa5c46d312a2',
+      126528,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ea63ed4c8a38a5ed502183472f262a1e3ff954b89de383e4218fe292c9706e15',
+      126600,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'f02ff3fbca9fcd2fa379c82ff33ca746e6254f4c5cf44c89d7b682e5c242afd8',
+      126496,
+    ),
+  };
+
   /// Applies the Exo 2 font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -4028,6 +5381,66 @@ class PartE {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> expletusSansFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '016c31d99f1f5b0ce53eb46b7e1b90946be2566cd38a5ca3bd0ebdae5e18e85f',
+      23420,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'de5e6fb6867bfc7811497bed8a4e32f5ead84c7f1e647b1595ec0e4978d050d3',
+      23456,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '31763336e10d913df125d065ac8e8a5253b6683bf8a2b644f2e252d2c10625aa',
+      23532,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '35f757f2eb7125564e33fd84620d45dde487680ecd6df26d3994ee115026b713',
+      23420,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'a98eba81a948c725f24ffa8144e3916cd1139d10211abbefebcf31c50e6073f6',
+      24220,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'f47a959a340c573db311fdbb46f2854af3fd11a9e60641adc6f9cc4cbcad8e6a',
+      24400,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '7f8297ebd77ddcd2a58fbb06d9d1d29e83711486adaf05f6ae3a282859a5f99f',
+      24432,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '6f0015ff3bdde7389b16aae368f17aff48e5b372fadaa68d1250602955ef08f7',
+      24280,
+    ),
+  };
+
   /// Applies the Expletus Sans font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -4163,6 +5576,17 @@ class PartE {
       labelSmall: expletusSans(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> exploraFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b0b87b25365b691c60856306ef4ac279098a4aea55c8e7258f27194e1da1903c',
+      124340,
+    ),
+  };
 
   /// Applies the Explora font family from Google Fonts to the
   /// given [textStyle].

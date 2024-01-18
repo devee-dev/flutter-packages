@@ -12,6 +12,17 @@ import '../google_fonts_variant.dart';
 
 /// Methods for fonts starting with 'Q'.
 class PartQ {
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> qahiriFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4f66733e61d4cb2734ba69d9495034c0f98175bba5a7ef95d399e64d9349b70f',
+      19704,
+    ),
+  };
+
   /// Applies the Qahiri font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -99,6 +110,17 @@ class PartQ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> quandoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '54167b158eb5f0afb7f16880da0adb3ebd589f4ee12f7bb62ed4f628043c887a',
+      46320,
+    ),
+  };
+
   /// Applies the Quando font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -185,6 +207,38 @@ class PartQ {
       labelSmall: quando(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> quanticoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6f10dca42b42c9253a3a2cca6cdaf1c5ea34d856627c345beda57e1231836fd3',
+      18656,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e920890272e2f0a6ac37e5ef10dfc1a45ceb58a85cecda1befc17880e4413844',
+      19836,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0e239fedd7cc4e31856903431cd8b34c72bbbb78fe8c62bd44ca46e1d14258ee',
+      18616,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '075721eb9ab1a169a4ce792f040170027a8262dd2f06dbfeb14bab8c7d839cab',
+      18364,
+    ),
+  };
 
   /// Applies the Quantico font family from Google Fonts to the
   /// given [textStyle].
@@ -294,6 +348,24 @@ class PartQ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> quattrocentoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f36a9561fc4986d0aac4878ec4f351a432931773328b293355e3cf1c3655212d',
+      65952,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a8a5308cad793492be58b4f5dac884b7917e7a03227cc63898db9643cc13c2ed',
+      66664,
+    ),
+  };
+
   /// Applies the Quattrocento font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -387,6 +459,38 @@ class PartQ {
       labelSmall: quattrocento(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> quattrocentoSansFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7bb731cc60b46f91bb52998bec01f9cdb4024f7f5d95311c17bffeee0062024a',
+      38944,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '2dbd5b51296f7b89cabf7e1450033af585ca2aa009d50d2ffe1091472e685579',
+      44116,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '65e121fdbdf2cde8fbebe307381dcfdf129c1fd68c5cd08b6b36c5e83062d6cf',
+      38464,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '5873ed8a6a0482a27a63f010cdb0fc742c8f51debc2d7f2055141d4789440a2d',
+      39552,
+    ),
+  };
 
   /// Applies the Quattrocento Sans font family from Google Fonts to the
   /// given [textStyle].
@@ -496,6 +600,17 @@ class PartQ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> questrialFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a03a863ae8309aa6530c0d8df4e28b31603d236ae11b23b87af29c097e43963b',
+      115384,
+    ),
+  };
+
   /// Applies the Questrial font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -582,6 +697,45 @@ class PartQ {
       labelSmall: questrial(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> quicksandFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8e794790f6e0d3994010c693345b1298e6e6f99913be9bca09e53d48e32dbc09',
+      72940,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '38526ae67e7c9e3888081c9ab1c460d9638c99fa38f4c8c0536cff80c6c79d8f',
+      73176,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '305a7b2e83565b72417626e51a433a5554c76081d9764dd13de6e75c4b79bcd1',
+      73152,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a55e7e54fc30ad4e93af3a46bf18ad012fb1d86b187e370c81585c221bf8f03e',
+      73060,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3d21add2a5ba9b9c1f61edd393037f38fabf5ae438a0b96b00ac3b01d92e871f',
+      72812,
+    ),
+  };
 
   /// Applies the Quicksand font family from Google Fonts to the
   /// given [textStyle].
@@ -698,6 +852,17 @@ class PartQ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> quintessentialFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b95696fa4eb6139993f920cc18b7ec1048c6ec04713eb886d21008514bdf0c52',
+      70712,
+    ),
+  };
+
   /// Applies the Quintessential font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -785,6 +950,17 @@ class PartQ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> qwigleyFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3d61de417ccd8ab1ac0602fad3a761fd007c801e4ab1d4f3e0741a4b1dc40ca0',
+      56936,
+    ),
+  };
+
   /// Applies the Qwigley font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -871,6 +1047,24 @@ class PartQ {
       labelSmall: qwigley(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> qwitcherGrypenFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'bc16c78b26f72cd4470b066075303c178d9df7c772d18aa46ed7c24df8479c79',
+      137364,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '21c2ea64c0ca3797d69890144907ab0a8cb005a6ecf3448b1a59a3182d72787a',
+      142980,
+    ),
+  };
 
   /// Applies the Qwitcher Grypen font family from Google Fonts to the
   /// given [textStyle].

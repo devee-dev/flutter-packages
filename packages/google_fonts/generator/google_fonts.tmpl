@@ -9,6 +9,9 @@ import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 
 import 'src/google_fonts_base.dart';
+import 'src/google_fonts_descriptor.dart';
+import 'src/google_fonts_variant.dart';
+
 {{#allParts}}
 import '{{partFilePath}}';
 {{/allParts}}
@@ -119,6 +122,12 @@ class GoogleFonts {
   })> asMap() => const {
     {{#method}}
     '{{fontFamilyDisplay}}': Part{{part}}.{{methodName}},
+    {{/method}}
+  };
+
+  static Map<String, Map<GoogleFontsVariant, GoogleFontsFile>> fontsFiles = {
+    {{#method}}
+    '{{fontFamilyDisplay}}': Part{{part}}.{{methodName}}Fonts,
     {{/method}}
   };
 

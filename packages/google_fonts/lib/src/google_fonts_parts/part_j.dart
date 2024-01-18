@@ -12,6 +12,17 @@ import '../google_fonts_variant.dart';
 
 /// Methods for fonts starting with 'J'.
 class PartJ {
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> jacquesFrancoisFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b670b2f5b6aa58a881a0f54e567661bf3e070755aaacfc428fbd83ea86a9aa7b',
+      28380,
+    ),
+  };
+
   /// Applies the Jacques Francois font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -98,6 +109,17 @@ class PartJ {
       labelSmall: jacquesFrancois(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> jacquesFrancoisShadowFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1a1af2fbc45be324624088464f6c17bba818083a7f63ba6a60dc862ff88ac587',
+      40580,
+    ),
+  };
 
   /// Applies the Jacques Francois Shadow font family from Google Fonts to the
   /// given [textStyle].
@@ -186,6 +208,24 @@ class PartJ {
       labelSmall: jacquesFrancoisShadow(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> jaldiFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'df17fb998fe2226b6157cada4cd08a99522324966fcb0c78d34f758515fc30f4',
+      253920,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7c44838ee49f172bc5936d871a3e9e3631d76743a9720f3ae3c07f98d0b9fe62',
+      253608,
+    ),
+  };
 
   /// Applies the Jaldi font family from Google Fonts to the
   /// given [textStyle].
@@ -280,6 +320,122 @@ class PartJ {
       labelSmall: jaldi(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> jetBrainsMonoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9a44b1b4adc03c445877e325d57d0879cb22840ff640a40e6515be59c845b015',
+      112252,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9133ef0d504f0d80e5478902ee49e8f815ade6f5621fc89c5d6b9263549325d7',
+      112340,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0623d0562debca9e5d97996af1de5e98f672a20f2ee6085cec86cd6a77ec3595',
+      112276,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fc34426314d00825ccc768a0c4b1178fe704f04bd947882ef10c2b71b7e355e7',
+      112148,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ba10286722bd7dc2274b817575046e39ee816d6ba1e2ace48e22bcd068576941',
+      112180,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f833596d98e0e021dd43d993254658d0f32318f82f08afee0fc2e41c16ce9571',
+      112136,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b43a7dfebfb8816fb3859f6a7932824f594e115538ccd3f1ebc0ffc231b0acab',
+      112068,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '98ea78a2337e1ef2274f247c857a63e40e975c6907a7baff9209033fa42142ac',
+      112064,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '0ad56d15852c41931b3640756ff18d55178c649d5fb55daf346a6831918c2c49',
+      115164,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '446787ed370004cd92c5043b5710c0fe7222eea7b1cce8d6a0d48008e8d4fa9b',
+      115260,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '9002d02f91013aaf6ee54f0d03bde3e7d114597f49401b022c948ed5c4229702',
+      115136,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '93f2f2d90bcd64e35bf1b7bd90149b168df727499667b5d2fde1758ed0297da5',
+      114936,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'd33f9b81805d2984778b134e68b0a7f242a2d10a81fa5299b8c5081f3f7f0e83',
+      115060,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '93aae81b1f8697f683ae32b65bacb4d74679d7a6a69357fbe45858aaa05db9b4',
+      115004,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'a89a53b6ccccdfd6431441572e542901c7620e55d91f10d0eaa3fd39adaa3b83',
+      114932,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '013382b52ceb65565ac0ecf7dbaaf9369d29f4d4d3a8763439e3eb77c2b1009b',
+      114984,
+    ),
+  };
 
   /// Applies the JetBrains Mono font family from Google Fonts to the
   /// given [textStyle].
@@ -473,6 +629,17 @@ class PartJ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> jimNightshadeFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fa4fc7922c851bddbda9c50b6c6f1940d2e0e30a420c3fa24989294bd78533a0',
+      151072,
+    ),
+  };
+
   /// Applies the Jim Nightshade font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -559,6 +726,17 @@ class PartJ {
       labelSmall: jimNightshade(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> joanFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fd42d643e7d0327fc47c57282946d1a1339f3e74b3ae846ae8027cb1b90d6bae',
+      134032,
+    ),
+  };
 
   /// Applies the Joan font family from Google Fonts to the
   /// given [textStyle].
@@ -647,6 +825,17 @@ class PartJ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> jockeyOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fdc1e610717f762093f7cd0e236081f14475548ddbe5a48565215c06ca22f5db',
+      41196,
+    ),
+  };
+
   /// Applies the Jockey One font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -733,6 +922,17 @@ class PartJ {
       labelSmall: jockeyOne(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> jollyLodgerFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '026f40b02b8851fd29e43776b8b2215645b10d0fe0614412b56e8d66d1e2a33c',
+      37708,
+    ),
+  };
 
   /// Applies the Jolly Lodger font family from Google Fonts to the
   /// given [textStyle].
@@ -821,6 +1021,17 @@ class PartJ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> jomhuriaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0dc88b9f389f99dcf7dfd9e2a9c9d16aec68be54023752190798b424c785365a',
+      159356,
+    ),
+  };
+
   /// Applies the Jomhuria font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -908,6 +1119,17 @@ class PartJ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> jomolhariFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '77a4946299c46124a673d10fd9d9c267a1604485caa7cc402654eff2d44227dd',
+      1002668,
+    ),
+  };
+
   /// Applies the Jomolhari font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -994,6 +1216,108 @@ class PartJ {
       labelSmall: jomolhari(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> josefinSansFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2448744e66028b67adc8960da8ad106b34def5d860b43e81290016903bf86933',
+      57624,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ac493e27b3df8ac02502e11ff486eb0cea81a273255318cca605df7a09d9cbb6',
+      57796,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9999a50a264e9071a08d7b90a2abcf5f56bf69d15719ef8dc9be37de399d1922',
+      57820,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '81bf642d4a1e8e4a982527d9467f3560d3bd31df1551f27e93c571f0e3a9c0af',
+      57820,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'becefacc06cd239dcbc516119a0334324c58d99704e2f9476643c0d1ef4c71ad',
+      57860,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '39bcc7a8df91857b0a72b6afc571ef81b1914a8a40dbafc8d5b49d1d5e089abc',
+      57856,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'be01a38ae87a33e809683992977e19210ad75b35eda7066a506c649c4f85be68',
+      57696,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '0f01f4c261cb3491ab95d60f4bd96c75709b5433902f0327ef4776f552e5ae4b',
+      61840,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '7dd16a88c296ea79e344c73a52578fda8aadb70391cf2be161aa2c61dbc87a9a',
+      62116,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'aedf49ad987b06801e45513c112a70d6c0f2bd01e7c2c98a1da2994f6e1716d8',
+      62076,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '111d8bbd0dbe8164dbda075f45bb5cacd44990f8a813855c91de0a358d745f48',
+      62076,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '3bcb7214e69f1944096b148fd8fedb17c5f0b3504097bab76e5093e3e460e119',
+      62228,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '3e2d0e4343533596ab3a8cfa4079e66b5e50fec88ea8261860d8162a8addb111',
+      62240,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'b951e858e636f232609db27567836813fd6920a23ca824a54dc0299b3c8eb919',
+      61988,
+    ),
+  };
 
   /// Applies the Josefin Sans font family from Google Fonts to the
   /// given [textStyle].
@@ -1173,6 +1497,108 @@ class PartJ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> josefinSlabFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c754b50ed94643d43bd0e1d5e7a33ad9467e5822ef962fa312ca92f00e3c8e2f',
+      21768,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '02ccf71fe0f07a61c60ac31948472da129e17b297f9ce4f912679dfbafb6389e',
+      21816,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'bc5577c8c6e144cf7406ed7dd22614c8d354133e0265b843ebcb85a269f692c0',
+      21812,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'cabc0e005c8be82e797468175170cc2a4e70c62081706151d3a89dd6d314250a',
+      21784,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '780d75edeace7d3638cbbefd73e03e1654c4091fe4923f86138aa710bd40efa0',
+      21788,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '73dbecb9ea32ffe0e30b8e01454f1f30ce8fb597e2f4b67d2186a2e6a574cacd',
+      21816,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b7387a91699d8c1d69c08c8e3924807a8aee699839a068fba8d0453a975ebfba',
+      21684,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '804e1e07675d6bb0be89d8f6abb1ca7ff9c372379aff3a01723f18380da96400',
+      23560,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'cbc8fcf1790706b4bbfa741d27df12ae01814491b21a33ac5b0b0c2267ce3391',
+      23612,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '067eb956bcbea1bed880a8152d99367e387416dc2bce1f0b133115c28915e10e',
+      23612,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '38d2006cee2c2f8c1dea3f8900f78bdc58e0853fca5d6065808e371259ce46d9',
+      23504,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '1ad5c4ba39d05ee28f37e51052d0f7a0ca7a026b5fd424f609f266dfa2c5369e',
+      23568,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'd7fbe3f28eb04cf5b9a190da9217a70a4e71e10544edef1c1dab1c62a827000e',
+      23608,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '7e974f309ed90cf0e73c7273f7f36f1d8a7a09a3f46296ea3e76616527186deb',
+      23448,
+    ),
+  };
+
   /// Applies the Josefin Slab font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1350,6 +1776,136 @@ class PartJ {
       labelSmall: josefinSlab(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> jostFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0cbd7b66531619d8ca0ca56dcd17f8d3a9308a1088792364cfa77ae6940ca252',
+      58840,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2041a7a9b6f6f89b0499039b9559d77eb78bfc5208355719a0a90595b69874d5',
+      58956,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '74de451daa3e5664c04d3f532f7cdf7f1544fc37a4b04a3c77e5ce6b1dfb4a28',
+      58880,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '86de69cdcb32a94d783369ed37ed9fcd9abc0cf2e92bbcbc78fd171309462c83',
+      58772,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '12051cd8b4d0f864e6af6c373eef5e9979347b6b244a4ed928a926e0a73d4a0a',
+      58908,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7052849b1f708c221d1dbe333121af75f65845d366a825af5c927fc2102c7966',
+      58908,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8ec4a2efba9c4b756ebfdc73acdf4940da777e73ff52c05d9c6e11ff44675f5b',
+      58852,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '450b17a89b6f52487c4d9ccdc338609d5d0d08f3309e807184650cb189217755',
+      58972,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ebcfea681b827060b29978461af726bd349443f1db8a8907071987817d73d53b',
+      58944,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ff29842e46cdb43fdb0664c8a21b2b0db9ea586f723d4c9a1ef29968a3536b17',
+      62244,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '2f64772085c40025ccc1edc6fd3822ad51f9e4dc8a83c52d7a3962befef4608a',
+      62460,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'b971c93d70bcedfbd38535f9e6da7e2fa22dc08039ab66288bb9d2bf6e1aed2d',
+      62608,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '90c12b277946b514062c038331eed91b63db94e69b6e2286eb47cdb91edc9c94',
+      62556,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '51b2684a0165d6087a922211eabdccb93e02a2ecb304c9f235e4117ef3a80b50',
+      62676,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e3ddfb12fc30b1401baac040ba85bf56a4ec263af15429f43e0b9ba4e0c07ed5',
+      62668,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'a7ea0c57edfcbc266cf25a4d8b243d99e8ada3376295e8cc662dfe8e585a9274',
+      62524,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '08ce15ffcb26f521ac295a9ddc20f9b86842a6196f1af4c13bf31df5ea50ffad',
+      62636,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '4dd3403c67213d09f949a87283a1ec9e90e06c39576431150a41c594e75fa8f5',
+      62616,
+    ),
+  };
 
   /// Applies the Jost font family from Google Fonts to the
   /// given [textStyle].
@@ -1557,6 +2113,17 @@ class PartJ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> jotiOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a1556ba8d7548e73a751710d82c4eba73ae767d9bb561fe2bbd3888d75538bc0',
+      39372,
+    ),
+  };
+
   /// Applies the Joti One font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1644,6 +2211,17 @@ class PartJ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> juaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '33724608e254c44195e254d079b5b7806804b9dd4841a37578e69dfaeb792c39',
+      1366208,
+    ),
+  };
+
   /// Applies the Jua font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1730,6 +2308,31 @@ class PartJ {
       labelSmall: jua(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> judsonFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5eecc68dfe55442cf465997cdf24849a43b90ca8488ea904a1eb06a63072b353',
+      117920,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'bffdc5c1c37ca45c58120e8a8fdb498defa04b41463b95f7dbfb95868f18dd4b',
+      109656,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'cee65280d9927a4b87350de17e52c604f7eecc500c38ba1c17f205dc617ebf75',
+      105276,
+    ),
+  };
 
   /// Applies the Judson font family from Google Fonts to the
   /// given [textStyle].
@@ -1832,6 +2435,17 @@ class PartJ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> juleeFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ae0991f2de285116242777bcc1fc071aad4259a2326948f6bd71abd8ec88aeeb',
+      46704,
+    ),
+  };
+
   /// Applies the Julee font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1918,6 +2532,17 @@ class PartJ {
       labelSmall: julee(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> juliusSansOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '897415897b595747828390f69e6e06501077ca7135b59c9fb621dd065c2c48eb',
+      26852,
+    ),
+  };
 
   /// Applies the Julius Sans One font family from Google Fonts to the
   /// given [textStyle].
@@ -2006,6 +2631,17 @@ class PartJ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> jungeFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'db83a6b699c10c13904dcd9fcda2117be98dc0b684971a8d20cbe80c805d0d3d',
+      24004,
+    ),
+  };
+
   /// Applies the Junge font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2092,6 +2728,45 @@ class PartJ {
       labelSmall: junge(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> juraFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '524a6b1e7560db04829605872be3aaa97299ee4e34f495342f6deb6755251f4a',
+      150920,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '19652db1874777483a7611aecd18d4da7a236cd2a2ecab1123d50671c03d9742',
+      151188,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e6772ff53e31e6db0b7e0c3b2fdd2cdfdf3cec7d33c53355c9719892b899422b',
+      151100,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '98f689b4879696c5646a729ded39f806a1d3afbe92878249b89a288e75acde12',
+      151120,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '13c5a74d6936241a64f461f8d8bbe17b83b0a1448572c0d3a7ea7fcadb485bfa',
+      150808,
+    ),
+  };
 
   /// Applies the Jura font family from Google Fonts to the
   /// given [textStyle].
@@ -2208,6 +2883,17 @@ class PartJ {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> justAnotherHandFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '13aedb770331ef1aba792d3f944450c9613954b9602faea54193cab835179902',
+      75428,
+    ),
+  };
+
   /// Applies the Just Another Hand font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2294,6 +2980,17 @@ class PartJ {
       labelSmall: justAnotherHand(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> justMeAgainDownHereFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5a8937ed95ef3f61a33aafb5c6f97c83af09ede10360cf9a4bee545257089439',
+      50340,
+    ),
+  };
 
   /// Applies the Just Me Again Down Here font family from Google Fonts to the
   /// given [textStyle].

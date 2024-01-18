@@ -12,6 +12,24 @@ import '../google_fonts_variant.dart';
 
 /// Methods for fonts starting with 'X'.
 class PartX {
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> xanhMonoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'cefc4c5849c6620d62c7988dae984db322fbd6799a07d828a6fe24529a4c1fa2',
+      38916,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ee195b8d6c4df8d2aa72117e92fa2bd82d24d301df61c81ac361a54725906730',
+      41920,
+    ),
+  };
+
   /// Applies the Xanh Mono font family from Google Fonts to the
   /// given [textStyle].
   ///

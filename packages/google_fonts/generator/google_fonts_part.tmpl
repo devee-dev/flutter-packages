@@ -13,6 +13,13 @@ import '../google_fonts_variant.dart';
 /// Methods for fonts starting with '{{part}}'.
 class Part{{part}} {
   {{#method}}
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> {{methodName}}Fonts = {
+    {{#fontUrls}}
+    const GoogleFontsVariant(fontWeight: FontWeight.w{{variantWeight}}, fontStyle: FontStyle.{{variantStyle}},): GoogleFontsFile('{{hash}}', {{length}},),
+    {{/fontUrls}}
+  };
+
   /// Applies the {{fontFamilyDisplay}} font family from Google Fonts to the
   /// given [textStyle].
   ///

@@ -12,6 +12,24 @@ import '../google_fonts_variant.dart';
 
 /// Methods for fonts starting with 'A'.
 class PartA {
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> aBeeZeeFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4ed0069c1454d476c52e8d8c43ffdbdd648c6a3d382da8cf078b3bb45ff82479',
+      30600,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'fb76fef50d4920b8ae51fa41329989b7dff2d0f0208d37b34127645a85352fa2',
+      32116,
+    ),
+  };
+
   /// Applies the ABeeZee font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -106,6 +124,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> aDLaMDisplayFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e74d94f2fc63b888e816efe6e5368aa9f123b03832a9199b76bd62957f0f52f3',
+      69068,
+    ),
+  };
+
   /// Applies the ADLaM Display font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -193,6 +222,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> abelFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fbef0740397e2ca38a05f204f7129be38b2ab6bb3994a69e14d3a245e489aece',
+      32648,
+    ),
+  };
+
   /// Applies the Abel font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -279,6 +319,45 @@ class PartA {
       labelSmall: abel(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> abhayaLibreFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '50e5cb049d0e3e04e498852e95102fe5883c78e1f92b34455e8ee053826f9c66',
+      260860,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '84a6d3b4e0c34e7d6250b09a7e403e729d20b11d9d9b2cbd9cccd39ea2d95ce9',
+      260976,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fc5ba43fd560019994cbef12d484793b0bb0ec58ea16c1964d342caec8023346',
+      260144,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '668223a249ceff3d577d8e116471dfaf79440271ba99b3f5fd74aba6260ef866',
+      259828,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0a2994a83922a275a5e31d364a484804f3c98a6ee47106b8d3a7cfe0d981a548',
+      259032,
+    ),
+  };
 
   /// Applies the Abhaya Libre font family from Google Fonts to the
   /// given [textStyle].
@@ -395,6 +474,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> aboretoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0077414ca4d77ab34c9aaae57c9b5de9e28b475d0ca8bcd9af3da80ffdad2726',
+      34204,
+    ),
+  };
+
   /// Applies the Aboreto font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -481,6 +571,17 @@ class PartA {
       labelSmall: aboreto(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> abrilFatfaceFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '95247ed0ac42215bff3c50489b91942a912e755ef30f32cac5450e0d3245d72a',
+      56284,
+    ),
+  };
 
   /// Applies the Abril Fatface font family from Google Fonts to the
   /// given [textStyle].
@@ -569,6 +670,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> abyssinicaSilFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '24c82694d36fa880dfd9972fae017e9f5ef8506b62562ef6918e2c2364c47336',
+      210132,
+    ),
+  };
+
   /// Applies the Abyssinica SIL font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -655,6 +767,17 @@ class PartA {
       labelSmall: abyssinicaSil(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> aclonicaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9cb4387809cda19f417138f419c71d11f7d7f5e179edf9ddbd7e76e84ed01c11',
+      53120,
+    ),
+  };
 
   /// Applies the Aclonica font family from Google Fonts to the
   /// given [textStyle].
@@ -743,6 +866,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> acmeFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'bb057c2fe8ba04cd3a8abc8e4d985898dcdaccd6f9fa1d5ed9881e3f26d6e6d0',
+      21392,
+    ),
+  };
+
   /// Applies the Acme font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -829,6 +963,17 @@ class PartA {
       labelSmall: acme(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> actorFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '62d4580d4d42de39d74b4087814e559b5480f30604b8d5d2929f391cda48adda',
+      32508,
+    ),
+  };
 
   /// Applies the Actor font family from Google Fonts to the
   /// given [textStyle].
@@ -917,6 +1062,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> adaminaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e123026cff37baee8a9e66a14d3cb57d9a5e1c7cebc75b143e4955e88e6be1a3',
+      34172,
+    ),
+  };
+
   /// Applies the Adamina font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1003,6 +1159,136 @@ class PartA {
       labelSmall: adamina(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> adventProFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b925a233cec80079ba34fda3bb36ee1283801b1edf7d5683ea97d85be45feb7b',
+      73424,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '270f5f71555ee4ad5364378fd5e2820789150759ac8c26dd5681f493ab81381d',
+      73492,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '70d13c5501cb027edec0147554f4320bf3a803f60bf7b770059cbea93753ddd5',
+      73408,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2756a227e16545ace2b6b5047f5ed76c876f6e6b2be2a2fad7e2dd5b8714e1f2',
+      73280,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '66b5961c96f8f7583e36f15bd6a13f2115fe012187bb231d47c794010c70a3ce',
+      73348,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1c64553952bc99f0921d43eb4d2f9b811e70888ce9249d7c5b96b00724016233',
+      73268,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3634b86d235acd3695e8e4a7dc5b5b751af74c74e8453c49f9b89f672642e847',
+      73112,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9dcde1f33a2ac4c2663f32af84b94285abb04dc616561a2723a880b2666573da',
+      73152,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4cf18bb073f72c54614724dada43f0961c8447896bfef45752ec94a6710d4957',
+      73064,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'a9a8af4391039ea8c7168152fd3e1e5278108a92e310fb4164a461f8158c01f1',
+      75356,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '4fd293831e7e9397cc2bd2fa9f60e1e878c3ca75973b44944d93d95a428b276c',
+      75440,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'dbc22cbfc52ebbbcb6e85d52df96f1976cd013791704405189b4567f63a4bdb4',
+      75348,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '49f4a337a56e2c44198413a760eaff48adb35f3f2279a16d441e1db1b9bdd85b',
+      75148,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '65285fc444227fdfa356e2ebbb7468cf733778a49b968add0f8edefacaa1df27',
+      75256,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'c6c323829bce77732877d349edfd00d422095eeac10aa6221b4ec0147741c88b',
+      75188,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '96c18cf111d0980aeb6c04671fee55ba1b7ed98283b202c1b49f281b0fc5f35f',
+      75008,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '850cff00895e6dfb373b82fa56a5be30da559772303f4dbd3e6bf683270690b8',
+      75096,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ad48da2b83bfda5f0b893d279e86558fee308844d1acc6dec77cc74fc77b533b',
+      74968,
+    ),
+  };
 
   /// Applies the Advent Pro font family from Google Fonts to the
   /// given [textStyle].
@@ -1210,6 +1496,24 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> agdasimaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3b632f82cd39b82c2c8100b7d53878d551769116a0f047e7c763a2e71d336c99',
+      22552,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6cb3f3184e01ccdb75eedf10c9ed33b98cc3001cec077ddc46b62b0e4846db24',
+      22412,
+    ),
+  };
+
   /// Applies the Agdasima font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1304,6 +1608,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> aguafinaScriptFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '67d457ebe8c906c7a08c078f6e2b8334724664ebd83cdcc015444afd7bc947f1',
+      44884,
+    ),
+  };
+
   /// Applies the Aguafina Script font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1390,6 +1705,52 @@ class PartA {
       labelSmall: aguafinaScript(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> akatabFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '31d990f9e9871c35b3b2cd23c1f6c57f50993d69c39b130a5e6a03993a17ed72',
+      57368,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f0834b6cdecb208743aa7bb9731577b02a179932141221242e6e025d497065e7',
+      57492,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5bb8c14a363ce2d58668c08d90d2dd5027c3fc7ccb98a37246fe62033176d065',
+      57748,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6fb2f1906c5eb7925d5b2cd600daf21556652cbef6fe0ab88c3c1ed17e437261',
+      57652,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1edacad1c18f04c2166b86b72d86f6a7c3c2fb2608412ddb38a27e23b915bc5d',
+      57976,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c16dc9b33033e0242f55c04f879e9a97ab5c813de0d1b21f7bcc3106b22f1c26',
+      58196,
+    ),
+  };
 
   /// Applies the Akatab font family from Google Fonts to the
   /// given [textStyle].
@@ -1513,6 +1874,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> akayaKanadakaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ae7b926a2c06f3a871d8f8927aee721c0caaa9a0b8193531c2c7c919d4ff6e8a',
+      204196,
+    ),
+  };
+
   /// Applies the Akaya Kanadaka font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1599,6 +1971,17 @@ class PartA {
       labelSmall: akayaKanadaka(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> akayaTelivigalaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '69b20a196e4a5f48efc33d7ec372bb02a6bc4cadbe3600b7341bccbefd8ad707',
+      319968,
+    ),
+  };
 
   /// Applies the Akaya Telivigala font family from Google Fonts to the
   /// given [textStyle].
@@ -1687,6 +2070,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> akronimFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2092a1a3699c69bb9776d37189bc8601dbdf4546f015d3c2c2cc826eb5162915',
+      105652,
+    ),
+  };
+
   /// Applies the Akronim font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1773,6 +2167,45 @@ class PartA {
       labelSmall: akronim(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> aksharFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0e820b80836bfafb14d1822dca072524922ae409262897b87489fe315d9221dd',
+      119084,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7786a61b9b2b2457b6513aabd5b8122998d08aaed1de65d7c971276481ab320c',
+      119740,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1488c52e8afd8271fbe50d5b59b9db44b176c54368b69a579eb8853fa284748b',
+      119900,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fb2bf224538ec29047717b92ce3cae90a2f1102d252a1afe7af5bb96485b939b',
+      120052,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ca1c65c76e3be7226d31d3d59a9aaa0f6d85e71be8837472bea4eb92b126213c',
+      120000,
+    ),
+  };
 
   /// Applies the Akshar font family from Google Fonts to the
   /// given [textStyle].
@@ -1889,6 +2322,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> aladinFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '55d0d65ec7e0251db1d8e2f46bb9ee8ec36ad55237f1c834897e75a9a75ba405',
+      39832,
+    ),
+  };
+
   /// Applies the Aladin font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1975,6 +2419,17 @@ class PartA {
       labelSmall: aladin(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alataFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4d6d1a876ec561e28b937360e72c7a923c4e70d6b296d0e02ab975f905541542',
+      63888,
+    ),
+  };
 
   /// Applies the Alata font family from Google Fonts to the
   /// given [textStyle].
@@ -2063,6 +2518,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alatsiFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9d0fb3f76a4356859b1290a86bdcaa2d07b4924e58af54062df6a7e4c4f62689',
+      88900,
+    ),
+  };
+
   /// Applies the Alatsi font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2149,6 +2615,136 @@ class PartA {
       labelSmall: alatsi(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> albertSansFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '54a007a5eea0c9be80b85b85de65b5757e40a53f181ac48237113e0908a9fbe1',
+      44564,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1443a5a2128ccf4625103e26180132ae5d10677582e66ff7bc8dbe9737241047',
+      44668,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0a9f40c255e15a8d81c58c9c0fe8d46156a765d3db6a4bde0547323070a62c73',
+      44620,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7ed6dcdfccb8a8593acc745f79d66fb2cd6131781c13e413c1289f2744062615',
+      44560,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '86c35dcde6fd6a3c6589330b2f873d22744f87ec2b77e5d55af7e2a5695720c9',
+      44552,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4ea4bf6b0777a9eaf35b3b50fac8c7cab4477f590e23ef4a51fb0c8afbfad306',
+      44532,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9a50f6ec5ee4075a430aa437152f8c25b35720aab417d581a147a4d255f79362',
+      44472,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1bd44561e7627a1e41ac1053ee90bdd610500dab5af4546ea0fe8dc5cb845018',
+      44604,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'bd782f1f4887e9191885e6517f136e00797ab8668b2585e23c826cfda536a6ed',
+      44572,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e1ec42a421e5df094bb01c478404ac97a84df568d33aec4226d57859f23db71d',
+      49676,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e8b8b885a0d01a5f3ced4a14af18bd528716bade127c6c88a82fcff8ef4a0f05',
+      49744,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '68729606728a20b565eb14c81f0fd5a121d29367fa7a2be5554ea0d266a6c088',
+      49672,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '68d5a3d5b302916f065bf9973c8c34f5479b85ee50254c4c62ee0fd7db9155b8',
+      49532,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '475a8e1c14248e5028486de3a8fad10f76346615046b7a65dce32b8abd9b2b44',
+      49632,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '1dac8f43b181aac125a8ad2e138b2aed82b7fec8c2b416b4436a2007699f43b3',
+      49624,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '975996804e4e42b5a43e7f0a76df4a33e3337c084b656fd0f10d2c8e02826cbf',
+      49524,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '48fcb6eb47b8977312fd817bba291a293c5af817318066863b2fd6e5d57db786',
+      49676,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e4496eb28e10ee5a255f8e863f962424cc2a34b510c480f4b6625b59b943fd63',
+      49596,
+    ),
+  };
 
   /// Applies the Albert Sans font family from Google Fonts to the
   /// given [textStyle].
@@ -2356,6 +2952,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> aldrichFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ffe893f4593d0a58e30f6f764534b13534722ed22970a2ce3303a185e7ce0c02',
+      25440,
+    ),
+  };
+
   /// Applies the Aldrich font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2442,6 +3049,24 @@ class PartA {
       labelSmall: aldrich(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alefFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '34ced41c88a6c966490ce1a85c40eab4c9fdb1d6f20114da8edba261c0180a55',
+      57172,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6c0fdebc49a6f30dd1912bf2f08920758704b733176699bf177607ce23ba91a0',
+      58820,
+    ),
+  };
 
   /// Applies the Alef font family from Google Fonts to the
   /// given [textStyle].
@@ -2536,6 +3161,94 @@ class PartA {
       labelSmall: alef(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alegreyaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '52c57d4634c08bab444b3085533c5ed72f8141117b91fc2a19e55d8b9c82c1b3',
+      161920,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd66315f95dd17004927b3ac5a5a0b15678cd999e297b99d083a411b3553fea4c',
+      163388,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2864185324c76741f7618c96d513ef421135641952ac00dde808487815895afd',
+      164720,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '82b4aeeafcf5e3ac0b94879dab79d8aa6e345e853d8cc3675e2f57df7fbd1edc',
+      164572,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '28df28c4851b91d886c22780862fecac37153fdf62e261e9254573342aa294f4',
+      165184,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4e36cfcb5d3c2171cd4f3990fc6b3319cc942a153323d95f5571c81655c540cf',
+      164696,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'f3cd48dd98aca02a49f3d5135507c9d12443105d88c20f71e1f2e8be397a3515',
+      161024,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e60a185aa31508f057243142a3956e9f4f0c307306d2461544a96bf2f35b5ec7',
+      162076,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '66d923f19d7409efed07b734d0b023f3ca54fb92659bee394fbda3af37678be5',
+      162056,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '55c6b7ea58482a974a6219f5712f968772b09dda3cc5cdef27c85e267b826170',
+      163596,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '50dfff4b0a2a1ca0fa3801c41505b7f3df28e345ffc2ad497df6552602867045',
+      164208,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '60f00096645be3a965344cb0e383661ec693e9bec7e31a9c8cfb4045690dec69',
+      163748,
+    ),
+  };
 
   /// Applies the Alegreya font family from Google Fonts to the
   /// given [textStyle].
@@ -2701,6 +3414,80 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alegreyaScFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c9484a508b55eb8eb6e8cecce0a0dd01b22893def0247245c207c2d3557f4520',
+      221956,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ad1445afc298d8dcc5e5375ed0701fc5ecdee507a66e6711b49f7c16f6c51475',
+      228040,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '70149b5096ea2f1019a9275f544ea40aa0b6c6de9e0af224d2db64860d0cb595',
+      221400,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '380cbbdb49a7920b1c64fd52d9cec0d845a90081379f3e311718e8236c096d77',
+      226976,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5d72f0cbf01d553236b99c25b7d93c4f7dfa376b5ea2b9a68d0fb9fc8978574a',
+      218680,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '220bf264f4dc23ee359a69242cd3be905a01654bbe5787ec686d66d0bb84d366',
+      225592,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2cd28305dde134872ff3b095b19da66fa34cc358400769b2a129b2c7c8ef3d87',
+      217252,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '66b4862bee541f0b94f90af2a20d0f2f890118fa443d2b215166b2970ffb551f',
+      220544,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2a7cde33f7f214537e307b01bcf3346929a345550221574af80e5cb03bfc9077',
+      214424,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '0db199068d1a0890c97023f7eca9ac3899099f7ad3af2b646ed75a1f8bc34ab7',
+      219916,
+    ),
+  };
+
   /// Applies the Alegreya SC font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2850,6 +3637,108 @@ class PartA {
       labelSmall: alegreyaSc(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alegreyaSansFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8d0e59e05f84bec4ce68d241dbdfa8b1eeff985301ae04cd22c8c514abf77b9d',
+      124052,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'bac8ce3d4443fed88ec013859456317a1ad8d24e8b2d7c9b377afaa15ec637d3',
+      129040,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '698c3b511f6218fcd375d39c3f8c74d7a6761087e679758027ea5fe066e9243a',
+      126780,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e83c8c6689a19ca21cee0a46a616d85bdbd8d71a3cb7c50f68afd25a65d1ccfe',
+      129828,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c204b2f8ad4a91b88b6217b24e5deb10eff4307677899d187280e79a361ab533',
+      126856,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'fed2193199a6365ae0d55f324b29056944d3f98b228eb4ac70a1425a3a636f5a',
+      129460,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '71dedcf7e6714c202080ec7669e3e5e933884f389078001f14d3a9dcbfb8acc0',
+      127264,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '5b3a79ce30711cd50ca94d33b2404f154206d01c0274e3d31e27d6846cbc2fd7',
+      130636,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f64b022e8b5109439835bf42f246086abba5106a9aba190c4cfd1ed6691438d8',
+      127144,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '4b2eb1030f4dcc0c08db2633f56b838456106f838c6e701296f3c537ed35c70b',
+      130300,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a14f7bc1d806ae9f704637e7f7a916e82e09f44726e9b706ef83a7365cda3118',
+      127160,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'eace86cda23b5d42c8b1a946bd5c38b9cd874b9cf8c3fbe1900b2bdfa55f0546',
+      130176,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2989679eb764c7070e7eb56ca862f49282ca3cc1f1c5d90756ffd91b1327739e',
+      125248,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'a877fb889f6aa458ea1e321773121959a8a8278a715ac5a30f3fbdf39d8a1b3e',
+      128996,
+    ),
+  };
 
   /// Applies the Alegreya Sans font family from Google Fonts to the
   /// given [textStyle].
@@ -3029,6 +3918,108 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alegreyaSansScFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fa96c9ec18d4b6f4b3bf6668d7c8121e41c9089164331136c6f5bb48a4a42208',
+      151440,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '297426e98a068ad1b58b52361173181330392de38d707821000888b2b60c90db',
+      155464,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd27609d8069136c03abbb6960fb8138ddf4068023fc89f9e80b52a4e19d92c69',
+      155284,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '8afd38384720cacbeb72732f5935c538d4f1b21803d37382a71a2d0f545644bc',
+      156796,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '80d79bf445e7110b689cb486b7a54978b6a059c06a92e78dcfe07c2164e616a8',
+      156572,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '0e4f6f8a6c630a226b85f22c76da36a6f961d2cabd26d9819bfb549097a28005',
+      156828,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4f7e7fec167c7c04b9e9c0517b3061d678beaa4f248357c3931f4473bf6d50d0',
+      156876,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '1a7e871c8804c9a0df56d003af691ee74248d1d77d8c331ca416ec5b275a8820',
+      157932,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '53a2a550eebec78401ad84f14e720d5b07cf31735d2814daea83c3e36a205a14',
+      157436,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '51f31cee882b2adc11d69ebe07a0bf2d5eb916cdd058d2aea6f13fd45699a44e',
+      157784,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c810a1642e52acf2fc2eb88c32dc7aae8d45cb3d4debfd46d9019688f8da30ce',
+      157688,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'd850a11abcaad9887ad4dbf359e7d56e92935d449ea2d282fd7b8ed203b3dc34',
+      158468,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0d5566617757a1e2ca2ca8934938d246b1bcc7eec37d4abf64faa199d5dd211b',
+      156868,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '27ee0cca89ca354a1bdeeafa2dd46712f106eb0152b45ce96b2ca44279f4cbc6',
+      158056,
+    ),
+  };
+
   /// Applies the Alegreya Sans SC font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -3206,6 +4197,136 @@ class PartA {
       labelSmall: alegreyaSansSc(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> aleoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'df6831adf33cfd11ce6332e3b8a76e269bd211d9eae3ddc69f89f6f0c93bf6c8',
+      71120,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3b5e4c089abec84aeb35c29255425be71854eb68f603f32d934ac33f1d74eac5',
+      71520,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '468e2aae65cbfe2f9f81ba2ad8222695368613ae0173fead12f3965434dd94c6',
+      71464,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '822c1b364d147734965f0517599f19ba72ed35af00dfa06d4bc07d3b55537980',
+      71408,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9bef16c0f165e734a574cbfb0ac121ce30bc11ad09f0927898d2f56204fb83d3',
+      71528,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fdeb0cd4c741216a4153119d6f2600816e6b2276d5746b87b1d09f625e75a8b3',
+      71572,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c727243528c75e0d10b138ebcb9546456909ad184686eb3de9b4c66899808484',
+      71592,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3b621db67e71d583afa1bcb6c15c380ff2d6564ffc8fb0b6c86595135a8e0164',
+      71628,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f4db68d21d0947f496db7b88463c62be49893b85a3f7abd23c135dca6f85d933',
+      71516,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '24f4755933bd763f10ab074a1cd2a01148b7199f92c5fb31930e36da481eb556',
+      73864,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '065ebbaa191c3163a7738508e0667533f226d821c85283fdf931af051246da15',
+      74484,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '8bc3129830c25856c42a2222161d6fe66006eb27f82f20a1970aedb44c09a948',
+      74548,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ddf561faadfc734f81a6d429f99db87431fe9763cd55181ea2ba8215a086f9d4',
+      74528,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '22c6a2556ea04378043de6ca25251f7836b4f57885318f309de844db5ca9dff6',
+      74696,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'f1202961893c40273e025cf531ab4d2fbfbfa64b417a5cf7c2176b7335d27bd9',
+      74664,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '190e18d29c51a2ae31c6732529b46b12edc74bc1fef3919321688e39d24de0e0',
+      74656,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '03b4dbe0b9a061626763fadbefca8d7fd3386e8b3e71b05182252c69439a3443',
+      74692,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '1c18a23baa36c8908704a21c94393474731b9fc23835a3b5aef4fd481e930874',
+      74692,
+    ),
+  };
 
   /// Applies the Aleo font family from Google Fonts to the
   /// given [textStyle].
@@ -3413,6 +4534,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alexBrushFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '20f20a3ed637f2b0ec78effca5e4d8d1544a18129a6c184eaefd1a16b6e4a03b',
+      76384,
+    ),
+  };
+
   /// Applies the Alex Brush font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -3499,6 +4631,73 @@ class PartA {
       labelSmall: alexBrush(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alexandriaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9b6815b2a80bef6cc7cf1417bf0ab1da07b35a5895091ae968ad5a1dd6fbdf4c',
+      101496,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'dbc709565e116d6f45ad3197c34bdc2737ae422cc26a70958b7ab6fb48d3e2aa',
+      101972,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e4ecf07ee412d45628ac91a1c08fceb01fa188b4f5044bccf5f7702beb881cde',
+      101936,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2e3111e55cca474072cf85b56df2df4d48874c2666a2d3b57c2613ccd7606a9b',
+      101580,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7d3fdc9002c28252eac2c6e012b1213e70c801b1ec542d476a34f4753ea27143',
+      102848,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a41df93995df23aca1d67fef8887eb48280ff7e6ebde4e2e7185fdcb63ddccdc',
+      102956,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '640f146379762b2692dd459ae6e2530f75f01d9aaf3e928b9f8c3c12882dbf63',
+      102888,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '684a064f3030d179ae1a1e995f0814ac85d8044228291a831963bed424b3065c',
+      102936,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7ebd3f2bda7cadbd784b284dece25740d21c8b88cb2e24e5a85a77c0303f419c',
+      102720,
+    ),
+  };
 
   /// Applies the Alexandria font family from Google Fonts to the
   /// given [textStyle].
@@ -3643,6 +4842,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alfaSlabOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c8fdd2d13c762eace9a89ef14ec1439f788062d7bb7dac53d3dc1e4da50abc78',
+      59060,
+    ),
+  };
+
   /// Applies the Alfa Slab One font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -3729,6 +4939,17 @@ class PartA {
       labelSmall: alfaSlabOne(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> aliceFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e749db529af801dece7d5ddc3cc139ea81e17fcf1da06f09dab98e4e72b28afc',
+      89536,
+    ),
+  };
 
   /// Applies the Alice font family from Google Fonts to the
   /// given [textStyle].
@@ -3817,6 +5038,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alikeFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f4a83c00aa9e628112f3eb3abf06d241dcbf8709bb948a31ef1a35da1e7e8668',
+      34688,
+    ),
+  };
+
   /// Applies the Alike font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -3903,6 +5135,17 @@ class PartA {
       labelSmall: alike(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alikeAngularFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '36c727176ac91a2a7114c3599438242880001e3774bb08090616fec5a211847d',
+      31548,
+    ),
+  };
 
   /// Applies the Alike Angular font family from Google Fonts to the
   /// given [textStyle].
@@ -3991,6 +5234,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alkalamiFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5029cad74704c5c2113426243c68574047c74fbf772096805717ddd9c2dd132d',
+      123592,
+    ),
+  };
+
   /// Applies the Alkalami font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -4077,6 +5331,38 @@ class PartA {
       labelSmall: alkalami(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alkatraFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '006aa1cf290a6de355508ee70592add5dee5dcdf43d47085a01a733cb5bb8e33',
+      507432,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '39dccff4c7a394a81a9a737a7d103feb88b30ce3391b4ca921b7c237538bae17',
+      508816,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2b0c037b299139fcc55583b65177472ceeff5d0449d60f32a51bb7a2566dfcb3',
+      508868,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c18ca8b0e467523a56b3fef0f87ab159b47dff04c427e255238cd744810097c5',
+      508092,
+    ),
+  };
 
   /// Applies the Alkatra font family from Google Fonts to the
   /// given [textStyle].
@@ -4186,6 +5472,24 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> allanFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6af8f59b73a97c889439b898eba9bdd1c0f9059b2956d93f1dc71e7ece4d93ea',
+      28924,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6e1c058c7e2a98326e1ae63cef4238e826976fb6008082c497872c59c7c7eeea',
+      43028,
+    ),
+  };
+
   /// Applies the Allan font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -4280,6 +5584,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> allertaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '966ff64339f556e7b5cd72638a17f46ce434fcaa9a36e04017cf34540c27e5cc',
+      15184,
+    ),
+  };
+
   /// Applies the Allerta font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -4366,6 +5681,17 @@ class PartA {
       labelSmall: allerta(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> allertaStencilFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '14ad8d8d5ad8fd1a841290ae1d281bdb7e491df21221aef4c38e5de309fd7cb6',
+      15684,
+    ),
+  };
 
   /// Applies the Allerta Stencil font family from Google Fonts to the
   /// given [textStyle].
@@ -4454,6 +5780,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> allisonFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c4e42eedfd31d1afecc52ce28994727e06f07ad83555e3f63d13a9a4e9f8a1bc',
+      93744,
+    ),
+  };
+
   /// Applies the Allison font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -4541,6 +5878,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alluraFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e84e30d1e22e3c4ae60ded0ac6683007c358ba996c352a5edf6599a0ba8aafa0',
+      109228,
+    ),
+  };
+
   /// Applies the Allura font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -4627,6 +5975,38 @@ class PartA {
       labelSmall: allura(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> almaraiFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '82a22b76b0460a3bc66a94d16aae567637288d1c3c77a5cc5a1c71f235eba150',
+      85828,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8123e9cd0c430e569e83475765af4fb01bb148d60534df3f96fb2669bae2c6bc',
+      85912,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '52025e83b24d3c5cf43ee005e784af9dbbe14cfd4eb77b6546cdf90d86cb0bda',
+      85696,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e2a1cb321bae24a4995bb6c3ff42b26355de1915c89be5465448a4bded2bbb33',
+      86588,
+    ),
+  };
 
   /// Applies the Almarai font family from Google Fonts to the
   /// given [textStyle].
@@ -4736,6 +6116,38 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> almendraFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c89f19adbceeb351c7c89568fbeabd3c801df1e262f84242fbd01284dfe5ae97',
+      57300,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '40a5892e1283273ad00379928c370f78309c9a17627ceb57f678606ef2646daa',
+      32852,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6064dade838bed7b29151972ff2740044097f5ca6a1ed9450043b766a07506cc',
+      34200,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '44a9959853400a337d8d6c8e144e74380d13740a0b357b4169d241ba05c6fcfc',
+      32964,
+    ),
+  };
+
   /// Applies the Almendra font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -4844,6 +6256,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> almendraDisplayFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '83d146faecfa0ccf42536ddc4acf30eeb3ca34f6ebc1c923c80e72a8c611b70b',
+      36816,
+    ),
+  };
+
   /// Applies the Almendra Display font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -4931,6 +6354,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> almendraScFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6b2742a31660bb8974d980f89345e91bfa56beba91c56c50db4beb89f5d56c81',
+      33572,
+    ),
+  };
+
   /// Applies the Almendra SC font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -5017,6 +6451,136 @@ class PartA {
       labelSmall: almendraSc(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alumniSansFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '964b1adcd76b6c17b940944548871145339a1e4d4d73bd617b2807e10b6b07ad',
+      63948,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '523ea4a4be84452aec7cb167b926cc98cc63b086bc84fcb365ca58231f164a91',
+      64160,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3a8a27615378d9205bf7488c94e901eaa5dc06a07b2aaf37c86940dc00aa89c9',
+      64148,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '85ea2eaf4231d3084dbee44b4156108dabc72f7ec75697493509ae7a8d29a11d',
+      64208,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '74ae9c63424c75a5c7befc7ef5ec853c04b3c80a4cbb28d49bf787c300242db5',
+      65004,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '86eb1ffa7917a8e5fdf639648f6331d3f1c9a3a0925918d5e3c055b94963f816',
+      65760,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '260dbce0e67d2c8e2927e03360ed6db7a7afd20c6a152181f0a83197109dc794',
+      65732,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1740bc61b53bb27d1dfadd4cc0d7fc1e683c3bda393a43d5395729b8b962e38a',
+      65784,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7113d0a080855484c6e76c019b73266a910e96a96e32aa906cd23dc02268ed62',
+      65476,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'bfdbbbe08a6dc854aa12f8b72d8e2d6abfb9c33e1f25bc9e01304e2c50b0dfe0',
+      66616,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '9c263ad9d87d46f4b18cb408b85e30cd6584be8e13984b6a65fb6644470e131a',
+      66772,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'd6f8650bd87ba55aa93f329d6ecd39d2c61eba1458e766205956d198ccd6ff01',
+      66716,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ddfa5772f9876e577993d7410487dcd4c8091dd773cfb0a220f2974b5985d5d3',
+      66640,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '11f4b5840181d2477b10a0c4d2750759f1f4e4e3cb41a85dffe2167618d4b642',
+      67532,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '38e373a2f5d385c5130818b436ecc461684bacd60a06e88ace1580c50c274591',
+      68384,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '44eb05621e005f1f857cb09af5ee2424bb6cdaa6a21eafc77ab3d9dcd37e1e86',
+      68292,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'a5f7fac04ef17561c4bece1bbd10e123c2765375d9c423581415fca05d1dd9ca',
+      68360,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '219dc689e3537bd34e7d8a54a0f63567fe0e8f60a391b2345d8d3e6493cd0962',
+      68168,
+    ),
+  };
 
   /// Applies the Alumni Sans font family from Google Fonts to the
   /// given [textStyle].
@@ -5224,6 +6788,25 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alumniSansCollegiateOneFonts =
+      {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '36aa50c9dac2ac09d41760e9d2a404bcfba618dc409d392b24455b3a334291ab',
+      110172,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ce49e1ba13cc8aea97ca7662cf005c2d0e66fd30733e342136996e32f5fce181',
+      116612,
+    ),
+  };
+
   /// Applies the Alumni Sans Collegiate One font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -5322,6 +6905,24 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alumniSansInlineOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '14d45facd03a99018658d0f4b42d042881f20495a9d2c544e1284bea8be27318',
+      72424,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '56df03fce4c95d92416eb2141ccad5aba44f47fa68eee4015f6fe8331e006e5e',
+      76416,
+    ),
+  };
+
   /// Applies the Alumni Sans Inline One font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -5415,6 +7016,24 @@ class PartA {
       labelSmall: alumniSansInlineOne(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> alumniSansPinstripeFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '91bbe00afe72f0c71b9f0918130ae560a7952dabb003dfa9d389a0f2afd920e9',
+      76104,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '4029d2bcae2ff604d6a89f2e310b66b0e181d27d20c9de8c4d4dfaa88457efde',
+      80984,
+    ),
+  };
 
   /// Applies the Alumni Sans Pinstripe font family from Google Fonts to the
   /// given [textStyle].
@@ -5510,6 +7129,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> amaranteFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a429147d4b4024562801d9dc3eb8869b757b41dde1af156fa1eb432ff47f92ee',
+      69428,
+    ),
+  };
+
   /// Applies the Amarante font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -5596,6 +7226,38 @@ class PartA {
       labelSmall: amarante(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> amaranthFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3686273f732592e770fead7f911c7d7a8f281e98c325dbf7fccddd3da291aa62',
+      41744,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '3c6a40add2c4b1adc53423a1cf451bdfa8e293d34ba6c9e46cb61591fa434140',
+      46900,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '37bf53dc84920307ac64820d8a30124f16c8b56f72082e6c5accf66fdb6267ab',
+      41216,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '9a21fadfc70d4e1272aee014ef3fcf8829c70c5c96324492b3e7f93bcaf62502',
+      46680,
+    ),
+  };
 
   /// Applies the Amaranth font family from Google Fonts to the
   /// given [textStyle].
@@ -5705,6 +7367,24 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> amaticScFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '06a80a564c495610f0e552c7088d9b2cba6293c27d1338e0be693a6c51ef7819',
+      103632,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'aac2c7ecfcd66f4e77dc1eeb67bae2c0d1684dbe691c4d584956c6799dae815b',
+      101308,
+    ),
+  };
+
   /// Applies the Amatic SC font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -5799,6 +7479,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> amethystaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'cdc0246bf774ad00a0c305ed9853782f799293cfff59e08f7b38c5f156f3726b',
+      20232,
+    ),
+  };
+
   /// Applies the Amethysta font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -5885,6 +7576,31 @@ class PartA {
       labelSmall: amethysta(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> amikoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b3e56ced59b11ce9474df6f7ba4315fc04083bbbd39ac720e9f14d842fab3b78',
+      122308,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '223ae4f44ff22c32095018b5df4ec7fc3f9800d1860964812fe19ac3e3682d82',
+      121800,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e59c0515a445bb871d186032eb247daa110f70c4baba542544c9378a593ca41d',
+      121316,
+    ),
+  };
 
   /// Applies the Amiko font family from Google Fonts to the
   /// given [textStyle].
@@ -5986,6 +7702,38 @@ class PartA {
       labelSmall: amiko(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> amiriFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '82b49c37cfb90dd8fff8aab7508c2078bb32a200648acb2237dc02c30f4492ad',
+      403728,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '635b094bdc2448d6d35f9ebe9ce0ac4a5437ff07d83fd42100f515cd94428cf0',
+      401896,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '53c460187d4f6d8fa2bde7a1a6587ca6487f807c31b094037164bb58e3b2bd4c',
+      379988,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'aa51030c8eda6555d210cf652976f140b8c4c47e521a2ab4b16e72d2907852cc',
+      377412,
+    ),
+  };
 
   /// Applies the Amiri font family from Google Fonts to the
   /// given [textStyle].
@@ -6095,6 +7843,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> amiriQuranFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ea739f8e8952722a477a1a50b5dade52f993df8e48a3cffaa6d0ac5ab35f632f',
+      192332,
+    ),
+  };
+
   /// Applies the Amiri Quran font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -6181,6 +7940,24 @@ class PartA {
       labelSmall: amiriQuran(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> amitaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c64cbfa2902d9e6efa46ef0cdd549aeb41343180d7339eab30b5c11503e66333',
+      132428,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'aa8e9f127f206a0c8b60f87a39f6c7bbfbe845b2d37951c3322a1ccda46848a3',
+      132364,
+    ),
+  };
 
   /// Applies the Amita font family from Google Fonts to the
   /// given [textStyle].
@@ -6276,6 +8053,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anaheimFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5f20dc30b8de25a3b4110660e82f540abb5e93fcb0a316430d07a0c0fb2a65da',
+      25804,
+    ),
+  };
+
   /// Applies the Anaheim font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -6362,6 +8150,80 @@ class PartA {
       labelSmall: anaheim(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> andadaProFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '127855ac19fff1cbb37e2d194534b819da0c91580acb1d0b097e9874cccc8ce4',
+      90996,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7390dd3a9faabd8b338e73aad5231a9ceeaeacd19bbc5b943fc89c473d53acda',
+      91100,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6fa9b6ccb871320d6c5ca2a3214a3e9bb8d207aee61300e73915f5403f99f49e',
+      91132,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'bd367c9f316cee8f97596c80bd1704f398ccd26b90f57008271d376f0ef90ce0',
+      91100,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8308cbab6ad9b6fefe16b7e56f09f2e4f6e6e6f880c179fba562856574319e6a',
+      91164,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '5b1186f658c25ab439a280b26c7300fbeb8aa704d0b69efa1ee89901391af090',
+      89860,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '5dc0a65e0e3be30dab4617e34091e1fe1eed6fb427d7ebb3b77b19508f8488e3',
+      89932,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'fb7e19bb8f1e3dc1abd7db3b2daad692560011baa166a5255a348f5079afe37f',
+      89940,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e8feedfe10684ac5efdd94c1ec410649cec9354f380974ab519e16a2f7ded70a',
+      89872,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ab4152eb78fad2c20011214fc543ad0edee9ec7bd10ee43e8bc6cd01a7405c9d',
+      89924,
+    ),
+  };
 
   /// Applies the Andada Pro font family from Google Fonts to the
   /// given [textStyle].
@@ -6513,6 +8375,38 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> andikaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'aa89f7c86a9ce85528fcbf29f52ea88903bd95e65c16666f0b534d199bf168b7',
+      321288,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '1b109d4a84cdfe960d2c4c2bb495c59d85286cb6c498bdb4200815c761b1d733',
+      344736,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e09bb3be60fd30559102d9b31e60d06c6b2673fea3289de097a0e869423ccadf',
+      322828,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'c164d7fe2c796a182403e29a49c5599b9b5c7bf72e1330947eb87703a92f96a0',
+      345560,
+    ),
+  };
+
   /// Applies the Andika font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -6620,6 +8514,66 @@ class PartA {
       labelSmall: andika(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anekBanglaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6c3fd627054e62cf0b0ea49c83524a3fb447b7488ae8db26a13b7e79b23fda83',
+      240136,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '78a9fd820b483384a4f556b61da35d3759ca129686acd1d20127782e86dbf6d6',
+      241300,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '501ab880a2b2abe0a0e6e7184ce1b88828b4134bdfad7aa700f8a5cc3366eef5',
+      241456,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9632e4f8f213e39b5649d2e9e4db894e0b0dcabac7f0318930993b0989878585',
+      241944,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '61efa971b7370c15640b114e967a9ddfb4f20aa4da813ee1e8e7eff53e6184c8',
+      241936,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '48ab047c25b731bbaf210bea557fc04d2371421c5a3edbc54e40abc21980bd11',
+      242376,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0254a40f4fd42182aab5d9bf0e3af103d2d6fd2477626d0e8fcdc2c42cbfaa93',
+      243892,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3ba5fcdf46cbf1e0605c122897447d18d48773046fa0f9ca818673cff2bd5aaf',
+      244440,
+    ),
+  };
 
   /// Applies the Anek Bangla font family from Google Fonts to the
   /// given [textStyle].
@@ -6757,6 +8711,66 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anekDevanagariFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0bc0187d28bf231609c939b14cb3cef93bbf138598ca19e1efdc1e55d735627d',
+      404280,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '25c8cb78a2ac78dc00ae5705f8fe3586f3f5ac4e87db41592ce12c2ff56c9300',
+      404944,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8526bd1b827854e945f67104e3bdafff0016165688ed7f62f20491780fc73546',
+      405416,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ac8aa77520934aec810245a99b9089ae1aebac242bb918792fd35c6c295c040a',
+      406240,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '38b6a223f72a1be64ab0a01b939013f6e57dc6ebe164d9cbfae3648a3ca6b839',
+      406116,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a2fad1e50e1a37bf4d122922c9de2098b3a277a825a985dc48a49a1ec30dfb8a',
+      406884,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '38d41cd66281e991c712a10002f7bb4fbb281cb4a6d57335a80dc583349fac35',
+      410184,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3483a4f99b1d7849e7d5ed14bab14f0096079cdab5ba1d79eef3840db61f7bef',
+      411564,
+    ),
+  };
+
   /// Applies the Anek Devanagari font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -6892,6 +8906,66 @@ class PartA {
       labelSmall: anekDevanagari(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anekGujaratiFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4f6b493a0c88e173cf2b29804db486acbfc5e518f09228313ec5ac242c46d65f',
+      285304,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8f1d3ebca3427bb401a2fe10647a9c0f027aa3f2cc4ca05b41e72366cd19a67a',
+      286428,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '57812ef90d39b948b0f59dbe2c77f749a84eb9362d3a5c052ed143145c563556',
+      286340,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b9bbdbf4252e14947dc39df987510addff8e7dbdd9a884cd78b75fac4a9da078',
+      286592,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '050f224a79c5a834c852b9c02f1c26a824f9b82d3ea7284a50e15df5a172e16c',
+      286384,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '625c2e99d58e6097101111532c70c27dfa75c66bf04eca4d823007c0ca834465',
+      288056,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f526e52e6e0b2d41ef85710d763c403de2478dea677d4d76b8955726b1e19b29',
+      290028,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0e8354f5e1bd21d5e5c2480b7901a6ac5f35fa15b8cf0eb8cf56c84e6223e68c',
+      291780,
+    ),
+  };
 
   /// Applies the Anek Gujarati font family from Google Fonts to the
   /// given [textStyle].
@@ -7029,6 +9103,66 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anekGurmukhiFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ab85332df30caad4defdaea0b3066888f2afc8c08500716eb6a5bdbe48bf9123',
+      83508,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0ca94e0a7b5793e3ee59694adc8b549e45fa0f076c9b27d6686a84f5a1246350',
+      83752,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e2d3b18a180793427e9e1fd4f74d7f1c443ddd908c3116cb159dc6fd41d499cf',
+      83752,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1c7fa2e13e7d8f8a51f393f18541c6e3340872c5f1a98cc542796d99f8d5d095',
+      83848,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8b1b72ac04e67c5f131386939117035ada9294f9b45d38dc7e634bc8f525498f',
+      83544,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '56de10b4b21c4fede11ce2f27dde3f7d8b1cac3da677b97420a99754b0f82980',
+      83816,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '169508ee548cee83163764b3d2887d30564629b9bf2b3423f5cbe90350a9ef76',
+      83960,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '58dd596495be3efda772dcb4d6e0943df2e0084817bd0db5290f51f3d0b8465d',
+      84364,
+    ),
+  };
+
   /// Applies the Anek Gurmukhi font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -7164,6 +9298,66 @@ class PartA {
       labelSmall: anekGurmukhi(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anekKannadaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8c9862a330e23c4a125603156e06457ba5d00062799bfe475811d1966c5cdd09',
+      240420,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '14501eb4c9145f55e451715a4df95b68e62cd61dbf1b84eea22492ab3b72ec53',
+      243224,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '26e54f81043a7d870fb80a0946e8f21de0784bd53ed084df7174e7297eacc440',
+      243348,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8914270e2bb27f583432857609824f565d26896cef1de96f86b34f4b9dd5e56e',
+      243676,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '22b2bb4411790711b61dd1c6fdbd084272119974f41504d99c48ba913a391176',
+      243840,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a82f0a7a6708f33c9a43b91207dfebe9d8f2fddab3acd4836db8e1b290bc83c8',
+      245148,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1446498de02fbd7f0bfbffca4f5775fd1c7d168ef7f5b6c22e55dd202d8cc4c4',
+      246408,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '62c1db9a9241f0213c61795038c24ef4fa0f52b3cebcb84ea23d3b1af45f0088',
+      247240,
+    ),
+  };
 
   /// Applies the Anek Kannada font family from Google Fonts to the
   /// given [textStyle].
@@ -7301,6 +9495,66 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anekLatinFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1c0115d9627ed8d3eaa20bb8fbaeb1dbffc46a764eaa133f97013205235272c7',
+      104136,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '647dce6a4132d380ad5880db1da0337806ecdc08d02dd6b98aaed492e8e5e162',
+      104848,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5de818eefa80af379c7c56d43f53c7cc8465cbaadbed6bed99677c67cb280d99',
+      105012,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '23dfc8104f756db4b09ccbfa84b31f14f1b94ecb7634defb055b22d55bc03062',
+      104996,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '472354a9c7522a35326d5ef3c306470826002bf1be4f776881714df0332a3791',
+      104928,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2a7ec7b6f4b70a304fb59799515e598394aab63008515b5ad9fee4f51f2cc97f',
+      105276,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ef3e85a834ca8f8f4f0583eb25af80e1d0be483db93e6866ecc9b47d630a9d25',
+      105448,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ac4b84bf492a74d7a11a51a07c1e4d5d701a980358bafb3c22e73ef95bb64a53',
+      105388,
+    ),
+  };
+
   /// Applies the Anek Latin font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -7436,6 +9690,66 @@ class PartA {
       labelSmall: anekLatin(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anekMalayalamFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c8f751fb0c621883b3e33f8642de428b172a23a0e1ab622c33dce7b449b260ea',
+      107536,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5969c950db6387018c0eb70ba1e41a2193e8a2b2d092bd2a8e98cfeec4b39f43',
+      107804,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd8d0727872857ab06b7bcc271088f0990338b1552c19be06c71efbd498d09575',
+      107844,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ce96415310dc73fbef1d44216f7879d61ae1d2d4a8c780d8c2176102ed301131',
+      107796,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3f0117d17bb8715f339af13ec763d7f6bdad462ec3dcda3d2c56b8f777beafa9',
+      106992,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0906cf3d1af1ef081887fc287ccb672d7564d35f86879d27607ff3c3502d356e',
+      107200,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f6a12cf6fd2532cfff0d1a6eaba3661bcc9604608f9399936df344e44bbb60df',
+      109832,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3f4718714e158f83dbb10b1bc3d0be86c90f2dec6298b0cb8e30b61ed36f3468',
+      110232,
+    ),
+  };
 
   /// Applies the Anek Malayalam font family from Google Fonts to the
   /// given [textStyle].
@@ -7573,6 +9887,66 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anekOdiaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd93d9d4eb54d67b8eaef680e51cbcf7243bfbe6dd4aa29a0bd1e2b8799d1d052',
+      163140,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1b08889e9a62ccc6c38eb85b76e1ab3f1645b22abfcbb3cee74a088a47c32570',
+      164252,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8ccba9768773c422ffe8119aa33f85a02b09bce1ae7fc86877f12fa84a990cf9',
+      164388,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1f19cb70f8bcc7fc64e1d86c60e7bee04e7e6b0e8a15a76fbf1b8a1f576d6712',
+      164332,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5962616f70a508f27d29997054b1e8dc6838550ac7230829dd43b8116b5360e6',
+      164036,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '756d3eed77c9c65178513dc25ab4aeb8b13880ad59eaf9c1dbd9044f140aedd0',
+      164360,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f901dc66a6159f0fa11c9cea5e5f65b6c4771f563047e4ca0beee46e422e1bbe',
+      164712,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5b716c49bba4a6e83ad95c38caa665f4ee26dc57e8fdd2ad5c5e8c67bec59c4b',
+      164816,
+    ),
+  };
+
   /// Applies the Anek Odia font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -7708,6 +10082,66 @@ class PartA {
       labelSmall: anekOdia(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anekTamilFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b1db05c794a93ad2f0a6d609fd141cddeb1a61b699c437c462c9c24bce9e6975',
+      98556,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '748cce3e358622607b832be1e84551eb67673f64d68603ebcff3e6e90c4a6bf8',
+      98940,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2ac5f8a005a4dd50a921950cbca9ce025963b94b5147559628aa25f608b7e46f',
+      98912,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0e9985f49352fec194621b96b2f13c97a39d2f7fad1bbf6b1ea739d505d43b76',
+      98964,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5716782d18dbbf18b249c4f32ec9a3eb1254f62e437ee00244296597ab132390',
+      102776,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '06f65d7d7c37ae8f018a01b058eef39bdffa75a7afd49df24a6da5a34248f608',
+      103068,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c194f457a9ea658a4c4362500f2ec874daf76ca0bbcd4281352283a0792848a4',
+      104496,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f77befe464d9125e73181a80a0d8cc1ca2457d84cf2bcae25a3fe9c667269751',
+      104944,
+    ),
+  };
 
   /// Applies the Anek Tamil font family from Google Fonts to the
   /// given [textStyle].
@@ -7845,6 +10279,66 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anekTeluguFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9330d53ef394715ade39d971437dd73bf66c077513467829c7528bacb9ac89ad',
+      306056,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '55d3194231a8afb34cf6cc06c9e1f3a98abfe45516278b9763a4b29f290fe76d',
+      308840,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '95532eca141f794d1458fdb3c42192873f135d693a2c0b06e6ad3af7b72d3cf6',
+      308472,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '769b3065754f665dbf74fae04f5fe33464b86f45916c93ab4eefbe1429a38a42',
+      308572,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '11b1ed2340fa798b214fbe6fe5f57e8b889a2348693c530665b315c8067f47af',
+      308172,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c0fd55d8180d9b8aed59f506c7a57c7a8ff987d0686ed37d21478bfc8d2a0989',
+      308964,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f907ee030ac09a1010d7d31f5884e0dfca0b23b93de0a88a99a6f1cce04ac6e4',
+      310200,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '04e24acd960b57e5925583de52079635a55f7371f9803eeb5555df753514b1d9',
+      310964,
+    ),
+  };
+
   /// Applies the Anek Telugu font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -7981,6 +10475,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> angkorFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '265909626caeaea30d32cde547a8dbbeffe00b8daa950a7b13c8145b54a97505',
+      38724,
+    ),
+  };
+
   /// Applies the Angkor font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -8067,6 +10572,17 @@ class PartA {
       labelSmall: angkor(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> annieUseYourTelescopeFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ff1575b5a063d09826bf441c2dc27619c4187c98c907003f3cd80e546a8b6915',
+      35952,
+    ),
+  };
 
   /// Applies the Annie Use Your Telescope font family from Google Fonts to the
   /// given [textStyle].
@@ -8155,6 +10671,38 @@ class PartA {
       labelSmall: annieUseYourTelescope(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anonymousProFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '081f36c2edbd80b4a96997bdd985999dab018d0c1735edf36329ab603148258c',
+      47292,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e9e045b28fc60e1f94b3a4c75009ba35d377129a7cb650621b08d2dee98429e5',
+      49384,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '17ff337f134c8ac8d93bc157bd1d6b8f3f493a09bf3cb84a4c34d1824d7edde7',
+      46980,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '47dfbc3cf4b4554c464c3420d6c8e42033d01450296705a5fe207287cc6afd9c',
+      49108,
+    ),
+  };
 
   /// Applies the Anonymous Pro font family from Google Fonts to the
   /// given [textStyle].
@@ -8264,6 +10812,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anticFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b8397fbf4e6ab293dd34d5a1ae6230e13c401b9d182ca1993c4a1a6aa7410238',
+      37584,
+    ),
+  };
+
   /// Applies the Antic font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -8350,6 +10909,17 @@ class PartA {
       labelSmall: antic(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anticDidoneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e9d67d68d8e18677c34d73fe7fe4104402ad32dd69b2ffb1cc4018e5c0e791e8',
+      34000,
+    ),
+  };
 
   /// Applies the Antic Didone font family from Google Fonts to the
   /// given [textStyle].
@@ -8438,6 +11008,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anticSlabFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f5b8fded4efad3094f3b441a77f4ed0d70f0cb36c863a78948f418d5486a1471',
+      31252,
+    ),
+  };
+
   /// Applies the Antic Slab font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -8525,6 +11106,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> antonFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c5d7acc3d35a9c00ee68ea6c797feecd74e283fdb750ed618e36621c2f506dcb',
+      87420,
+    ),
+  };
+
   /// Applies the Anton font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -8611,6 +11203,59 @@ class PartA {
       labelSmall: anton(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> antonioFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9543dfa9322d8739ca8db99a828a1c37d10ad5d2937f868670a955d925f4e6a6',
+      36664,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e55c7f2ed74b7c42df03f90e377a253c01d6884834e03c435e0c3045ba28d376',
+      36744,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'dfd2861fbc21c4ac22010754a12b4aa8cee1f4dd76ff78c1cc38b0e28589e4a8',
+      36756,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7c8e7e8999b27d9b13fc07bc812df95c2050d4cc850489cb9bdb2c8fd8aa0345',
+      36672,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0ca0f550ce547cd7801b42b48c07340f96c2ad6f69228c904e9d517f6f514948',
+      36748,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'bc1ed518b7d3d53117c61116c3bc3fc37fbbf54d4d96f7bac95b6b08482ff868',
+      36732,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9bea1c566ac5e92ba1e01dcbdd8112186e3fe475f348ac09bf8a1a8aa3cddeef',
+      36772,
+    ),
+  };
 
   /// Applies the Antonio font family from Google Fonts to the
   /// given [textStyle].
@@ -8741,6 +11386,59 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anuphanFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'cd47f3b4668fa2ea83632a23330bf1abe85e4f74c4d42c4d7c79cb2fbd997de1',
+      109888,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e75f1a3971189df6a1041fe01757b64815b957fb0ae7c7ef4e48706114a3124c',
+      110200,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1b4abcd364cc96ea7868a90e0124dc2e873df033d3cd060b017bdad11cdac90b',
+      110068,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'efeadd4e490310829527b631ef62b4f2a28d87d28075bfad98fbbf3c97cc0014',
+      109576,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1082c078ad8592a5223ee52cab08994f97d09ff9960bb04a4f493dee44c27331',
+      110160,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '366781bfcc9ba31fb2f5f2f79559316b0b845895a56a83a6b4f6ef6c859c25cd',
+      110080,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8baedffc23caa1c33e7238245329e499b00edc34ec08de9820f3e4566a89acee',
+      109880,
+    ),
+  };
+
   /// Applies the Anuphan font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -8869,6 +11567,136 @@ class PartA {
       labelSmall: anuphan(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> anybodyFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ac29a5ad92a93b0a58ad70b34d8c224b6b2833f7d8d05c9d57e76ba021ed8654',
+      59196,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9acb8ae69ecce97e1d7afaeb97ec696c11a4870510fb81a9951c3b83a091dfc2',
+      59396,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '59e4e28ccdf8ca37c04250f88a96be8d753ab1ea22e15f55087529ee0868f121',
+      59452,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e014c0cdb2a235b483a000eddc98c167e9879f147f87414d53114bd3c533429f',
+      59548,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a98ca25bb0aa62dbcc53cdc48af3c1d183c6603fa4302cb8736fb2ec260f1c36',
+      59608,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9d995e39b94de13679107b248e553d0a75eee118aa7c0805a4f81f4a30d2dbab',
+      59840,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '06ebee36a6b0e741ef8783515f7d36af25f0a6ebac78abcf3a9338968d21a227',
+      59860,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '23dca5346d63c81b910d82e539d8688d46299867a59c2094a97f960f541dc971',
+      60220,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1031eb36e95198059f991780c55ca1bb92d7d566eafb9b6a7c043950af241b18',
+      60276,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'c3f5a6f11c5368ffb5a83f013e01ec8e6520f9b098f1edcd9c924275eefd7890',
+      60544,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '27ed66c91163b409d5baafe1ced9d6e2e3252ff254346363232a23a65acad459',
+      60800,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'f83218c7e5ee78646866c3f5edaf87b4216f4a785f115e09b6b2adb780f65a30',
+      60812,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '75fa18ec60ce0be603a3363532f40f299298c35f198a2ec0b8d48e6b97aba096',
+      60808,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '20a9989184a1deb8f96388cff42a363596601345ce1903606ac2fb8c9e048626',
+      60868,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '315d0f909041d8a8a1ad67159ca78e72306256ae6122e8938947766acefc4329',
+      61180,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'f1c7aae7b73d263efead2701ca513d9bcdb4e50a3380aaf3596bc333f94d9033',
+      61140,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'f83f585f47288d1f75da135d9fc28b7248f21057ce416bc9a81cf87e98ba1031',
+      61516,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '21c625200859cc21156ff16c41a4ad203d6b46fc6173b7a1099fadc6ed345497',
+      61476,
+    ),
+  };
 
   /// Applies the Anybody font family from Google Fonts to the
   /// given [textStyle].
@@ -9076,6 +11904,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> aoboshiOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c2034cba1eb814acce447cc3f7bbf7621890501d1a7c45b637379130622f1d76',
+      71032,
+    ),
+  };
+
   /// Applies the Aoboshi One font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -9162,6 +12001,24 @@ class PartA {
       labelSmall: aoboshiOne(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> arapeyFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8dcb113d8c3f16a124e56ea34d4486f28192f9eea9a0e9b86d784a332dc1dde7',
+      24096,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '3bf34afbf43de8a92261f42fcf6d19a0eeef2e1fae33ec84fe054c5465fd802b',
+      26812,
+    ),
+  };
 
   /// Applies the Arapey font family from Google Fonts to the
   /// given [textStyle].
@@ -9257,6 +12114,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> arbutusFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'cc275606ada840841239505e30e12169121ecc461d2e23a845818611870cb559',
+      78872,
+    ),
+  };
+
   /// Applies the Arbutus font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -9343,6 +12211,17 @@ class PartA {
       labelSmall: arbutus(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> arbutusSlabFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '04431538aed147aa226942f7676d1d7c0ec00b5de643a138cdf981e387f8296c',
+      36956,
+    ),
+  };
 
   /// Applies the Arbutus Slab font family from Google Fonts to the
   /// given [textStyle].
@@ -9431,6 +12310,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> architectsDaughterFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '87659fc9ea9955f9b1fd8cf5cd2f5282c8ed2783cd6e720f958dd37a6a920fc4',
+      28660,
+    ),
+  };
+
   /// Applies the Architects Daughter font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -9517,6 +12407,136 @@ class PartA {
       labelSmall: architectsDaughter(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> archivoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'cdf2b7fe0624a03655189f6d69af9aaf273f50a027e5ac86ac9787a4ade55cec',
+      111924,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'dbbe298211a31369246e4b486cafc9fde16a8deef967a7187970aab2012e5517',
+      112024,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '765a57442dc26b38758504d3bb2c18c40395c2d15ca03ba79c73ec900b8748d9',
+      112024,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fd0e80370e3fd603e9f717e83eb37aba39e16febdeb262d65baa3fc8a188e8e3',
+      112036,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '509704200f2b001811798575b8dfb2d08e5f2b1399d086ec74952d1c8ceaec8a',
+      112116,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fae6ab6c0a7a9fed261713b6217cab1c599c77f045fc8b1bb11db97b39d17c6d',
+      111852,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a7129619aab18718ed5cb53e036f3cfa76ba1311b93cf57364108e9856932359',
+      111928,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4489ee578f9e831634d93f4259a41478a7417c7067a185e05b9d7bc2e82cf03d',
+      111928,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3261b4795058bfa613c359fb4c0f8dc48aea785af65f39946a3eb1b51ab2f452',
+      111284,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '1fe6239e4ef35efc300b795793daf655e03d1c34a70be2163984bdbe04e56d46',
+      123560,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'd4cee88ed16b3a9e8fe09d89e10f01aa06e76492cc92d41ddaa0cecc0a4cb490',
+      123660,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '01a3540e20193a1c823faf9031d79cf08f37c8df9cd21712b671a0148a08b00a',
+      123540,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '334dda3f94aea2878d621590c069b9369ad66926596a8b80601860f872b5e7ab',
+      123400,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '5cd4ebca7a924116f1b16d36300b902e12030e73e97d98067a4da9ea84268b58',
+      123484,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '8d7899731adf63770491887bc5929a460f3649fd8778c498f4e85a9abda304b0',
+      123348,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'f59a25b1bc97f42ae253439e9b956ce22b140119e99b29066f5517ff2b4788fb',
+      123324,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '5ae7277cef1c98eb83275909da467766c84b524bb5b725414ca7258c177d1b50',
+      123612,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '8bfdf769fe6a374f09351a824f76c1c55b7ec1c5b244959dbc29991e505d3f42',
+      123296,
+    ),
+  };
 
   /// Applies the Archivo font family from Google Fonts to the
   /// given [textStyle].
@@ -9724,6 +12744,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> archivoBlackFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '34faa332783c7fd86f7134ff30d724f33c4fe7221f9ecb7d39f0fef2aa078229',
+      44844,
+    ),
+  };
+
   /// Applies the Archivo Black font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -9810,6 +12841,66 @@ class PartA {
       labelSmall: archivoBlack(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> archivoNarrowFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '87579d5f7c8e291f72865575e99bafd42ddf2a976033ac75b61f13b93bd19d71',
+      58336,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '170894a98b4ff5152409dcda4ac23e89be885964ce12e174d2aab15a412270d3',
+      58732,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '36eaf8f0a1bc9df263eb6647c32435e43559b90b778f41661fe0694f650b64fe',
+      58752,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2a372c78164626347bf5e9b7901b1f6ff5de669e3526460d13a21be209df752f',
+      58316,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'b2f53270fa26eb7b7317c2a6e46660fab24f02bf48a56be47cad9280003ed0a9',
+      60812,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '632f244776126b5f558e797d5537f0de20cb5c47106aec136f039abed8e9a8de',
+      61104,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '708113ac8f976d691607f563eee91f0f7873cc97bb9d0b8f7e6224446565871c',
+      61108,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '1e0b86c3e6c8db797a7ec86c89a950b587c763f650389cf18b233005721a498d',
+      60708,
+    ),
+  };
 
   /// Applies the Archivo Narrow font family from Google Fonts to the
   /// given [textStyle].
@@ -9947,6 +13038,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> areYouSeriousFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6b99249b48dcbbd6e71212db613f05b8ddcca2401774e640be391114eefca26e',
+      149320,
+    ),
+  };
+
   /// Applies the Are You Serious font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -10033,6 +13135,24 @@ class PartA {
       labelSmall: areYouSerious(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> arefRuqaaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ee5d099cdd37221896c5168f36a91e7ed66cba3ff30da3ba74aaddfddfd53a0e',
+      108040,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b6e533cd4e2e04a879aa03f33ae815af69fad4518eb47833d64fbdc163d033a6',
+      121028,
+    ),
+  };
 
   /// Applies the Aref Ruqaa font family from Google Fonts to the
   /// given [textStyle].
@@ -10128,6 +13248,24 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> arefRuqaaInkFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '74782bc46ebe6fac61765ba995db1b7ec540db397cdbcac821afa40e7de1a9ee',
+      565188,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fec5801ddb6763908db553e7b57cb8bca86bd11f1ee4ce28042eb5398be5abaf',
+      628000,
+    ),
+  };
+
   /// Applies the Aref Ruqaa Ink font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -10221,6 +13359,59 @@ class PartA {
       labelSmall: arefRuqaaInk(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> arimaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3f53624e0a3b1ac13805174ee559ba3412c4871de8265b89c7068b90fe788ab5',
+      191192,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '88c42f9d784e4b8eca201dc55885f4084b0eba223131443724a308ae72cc5c16',
+      191812,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5dbbf2f1c6ccea41e27a782d0eeb61c3b5014ac023fc80684ddf78bca9fc946c',
+      192192,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8480f252378e4b5baa8d892747be8df704ae4b258ab1b425c01b337dd8730703',
+      192164,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4929f43046fe323074cdad119f09ef05dab0ad09d54aeb3754bf2579e039f213',
+      192568,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a29b89383081bceee9e1af386b022fcc9a25b40b577e6afd28c774048b0b8420',
+      192412,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '64dc4250fa5875a42506e7ccb750eb55537d31dc24ae3528789d7df8e8170f65',
+      192356,
+    ),
+  };
 
   /// Applies the Arima font family from Google Fonts to the
   /// given [textStyle].
@@ -10350,6 +13541,66 @@ class PartA {
       labelSmall: arima(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> arimoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'dbc3f5256cfcb1aa62736daaab3bea7dc85c7c68028cd408671a796537da3a0e',
+      315684,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a853459fe429fbc56342801939f6abd1bd18700830e2f34895d3ea74cf90ed56',
+      318660,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4c91b9aff501566727a4386c973afa730f2ca6af63776681e73bbefb062c86ab',
+      319656,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ae8ae33dbafc8b8759404c8f812d36fe44067f5c6b90b38495a2be5daa57c5da',
+      316204,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '963985e80cf691a33ca6b4879232d4b34d3f8f631f0c6353d60a1595a519a6bf',
+      337860,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '393deb90793814a70d0bdcbbf8e1c16c3f86fa348de25b6f915b12f86a284e75',
+      342400,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '15fd3e30d1fcc180ad52f205cb4d1e56a2ee66633ffb716a034a2d522cd6be3b',
+      342948,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '4232c2585c5833abe3d7e3adb1dc11dd367cdeefd26135499eb04c5d2c697096',
+      339292,
+    ),
+  };
 
   /// Applies the Arimo font family from Google Fonts to the
   /// given [textStyle].
@@ -10487,6 +13738,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> arizoniaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7aa8e5281e45c32f01512a4832037a62ad85020cce660a1eca1784a72e483b66',
+      88192,
+    ),
+  };
+
   /// Applies the Arizonia font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -10574,6 +13836,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> armataFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7653dd9ee79fc9669bf68296b378d9f94a37e2f8fe2a8501ed2bb072ad55de82',
+      49964,
+    ),
+  };
+
   /// Applies the Armata font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -10660,6 +13933,38 @@ class PartA {
       labelSmall: armata(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> arsenalFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b5f695f889f166bd03a347f103b3bc671e167458595c8d02994b7fa1763e3e86',
+      76692,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'a5f085824395aaea9d08f1baad23b3fe697f8214a27e871c4ef04df58d3559ea',
+      82296,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a8ba6c5b0c941ce0588b8095560c835724c810d579d505f01e9eedf7fae53cf9',
+      77208,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '56f6907247178ab293265b7dd74616db07072abca641f4a05046a57665fc0ce8',
+      82340,
+    ),
+  };
 
   /// Applies the Arsenal font family from Google Fonts to the
   /// given [textStyle].
@@ -10769,6 +14074,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> artifikaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2d366647b42c50a5c4a1a96ac78630df49d1bedb60e89f5b32bd9e187b3e3c15',
+      36888,
+    ),
+  };
+
   /// Applies the Artifika font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -10855,6 +14171,38 @@ class PartA {
       labelSmall: artifika(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> arvoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '20dead8f57ec394f44f6bf59e087cba69339169ba2a4557d2d3c4748b97498bc',
+      20668,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '58988cc9ca01776a0de0ae7a93ef72541a9ac38ac196e98e7c1ba8a5234eb93d',
+      21104,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e67caf3b0bea80c6cc490964fe7c03954ecfad4dccc515d9c87ab047a1d04697',
+      20556,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'b9f89dbe72c3a8c6526e16d93f8386ba532a2bf4ff6e6e22fa842ec28b209388',
+      21668,
+    ),
+  };
 
   /// Applies the Arvo font family from Google Fonts to the
   /// given [textStyle].
@@ -10964,6 +14312,24 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> aryaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a939aada447f5c1bc764a8f9960c6424d3f38d85972df751c73e54c7362afc64',
+      107792,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '00ca32f8ce8b566199068fbd0a93b788998d103f60dfe43263e2959b328245db',
+      107528,
+    ),
+  };
+
   /// Applies the Arya font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -11057,6 +14423,136 @@ class PartA {
       labelSmall: arya(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> asapFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b5016c02ae475df8fc1a45a7c62e01b41a8f17a903e2dd17b0f26c7e02da4d72',
+      76744,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'cf3c3c54f867345b405c2032b0752865216005620c1d884d9a981fcb4bf8543b',
+      76828,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a30d35ca3b72ca1d10bb6bb6589178b3522197fa86c1e9f8651f1e8b814779ab',
+      76804,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9a8d3eb61a6203d9ef199fe4f1873b2095002da35f6081d97cafb4236eb49c13',
+      76760,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7a2ead9a3102f4552495489efe9ee98f5a55adc58549e87046e4ee052b60f58d',
+      76764,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e802aead031e6a5c10036a6d60bbedf7e102b0eaf74c33fdf3e0647b6b622806',
+      77340,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1a72d2f649a186c225ed37869282f780015a11ad9eafe198350ebdbe7c83ec05',
+      77068,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '45e0f9b3dea45b9c9013f843b7aa477c432cf24acfb94e0e9cbab055af14457e',
+      77268,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9735c69f3f1eb4db656757037a87a35c2de6e9237c3d963bfc6e7d59ecb77ac3',
+      77176,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '64cbfc8e0b2957b4f41943ad6cc792d1a08ebf94679c3d6612f88a6091c91b5f',
+      83948,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'f49da0598fc7fb264b32c34bc5518358f08bfc52b80c60afd9f7ff99c4bb5bd5',
+      83936,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '36d5d03baf26472e7f4012174038f301e00573cc1fbe9252ecac4357792829ae',
+      83864,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '5b33b1a634fe720a390f465c7feb47e7ad64614c31faf9268ca1821b00806023',
+      83776,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'b47ca3770b2d338d3e2b3bac9a9b366bbfcfe9543d064138b5b662f36ebf2553',
+      83872,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '2d9d782b18dd908cffe6002b0a9091221ed6592996991292e87c294b532ecdd4',
+      84464,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '1890e7d7ba479a884edfcda83be9078268b44e3b329f89fe2dfa7b89fcd09f86',
+      84308,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '233497ddf7d6e16e8efa6c9db2a1d5c8baf2d0d52443e656d6f73b7e2fa57323',
+      84448,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '56e1ccf40569e80b3971244c3ce36a362f55f4ffa96d516c7c32ebd97e6fb533',
+      84456,
+    ),
+  };
 
   /// Applies the Asap font family from Google Fonts to the
   /// given [textStyle].
@@ -11264,6 +14760,122 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> asapCondensedFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ade484514fc686d95088ecc9068746f65f9f6adc0a696b0da2acff890854cf65',
+      70152,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'b90f2758c6c2a0ce9c6eaec199b338330157f35f221cf442ccb7401e28d3f04c',
+      76572,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b3c62c07961f8c1cc819f2413c4c3ee66209f87ac7f8911f5cceaf6ae7e9f20b',
+      70320,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '5e8644c93790b8e8f02af72b59ab4bd483bcafe8bf61c742c2e47a135a6ff996',
+      77020,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '67187fc586421b75621b755d18a693668eea2597145df23beb9fde48a8882929',
+      71612,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '63625d89a9573f702e3dd30ed912336425338fe219fe28894871b2f37cae3a0c',
+      77984,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6d71e7ff09d019e9fa4eae958644a8190be57bb346e2d0873d8b44e81bba61c4',
+      71836,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'a9542b8c9b49dd59dd7a0194dbf978aa7217da8934385cb89942677033ff916b',
+      77880,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '42a52e3883395e911536e1324ae049b48724416320a3112534c52180dba1dcc9',
+      72296,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '6bcc4b65aac2d82d21074f772e1bb4664700ee41ff8555abeaa104f2472c3936',
+      78172,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e0b3138a6a67eeb7069e32ec786b225609fede9574da5247a078090343655a86',
+      72360,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e44fb2e1f383540efaa32f627502156a8dfac857e2fd492a6841f2ba695bde93',
+      78608,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5fe738ea8f89313a07b24b4817151afe1fd74e018a6fce55fcf463cbd284c004',
+      72540,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '0329db6b59363ed37615e30425df1482ed5da743d38b4bbfdfd3cca986a6a765',
+      78160,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd2674e90f25213c78dafb5d64b4879b2387705cd77d762f1adbee7803d84815e',
+      72772,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '8042bcbfdcf6ad0d79d7991669c88cee49b2f4964ee918b0cb3d7d62656e2101',
+      78708,
+    ),
+  };
+
   /// Applies the Asap Condensed font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -11456,6 +15068,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> asarFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9f5c57c47471c19a020f356b7153fa11a8ceb320745319fd004076634bfebd4e',
+      399888,
+    ),
+  };
+
   /// Applies the Asar font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -11543,6 +15166,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> assetFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '05b772f97efd5b939ba6f54e41a0f5fb8a7afbea285324a80af28fd048e262b5',
+      48040,
+    ),
+  };
+
   /// Applies the Asset font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -11629,6 +15263,59 @@ class PartA {
       labelSmall: asset(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> assistantFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f28488ab014bdfd98c208e1333f017e7df733170a47454b4e06bdcc9634f1048',
+      47472,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e84f598d0f695a2eff4274bb1c0ee3161417631009d2d255bcf350dda0dd41a3',
+      47700,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '74eed00eb58c95d62107019c6db7cbc3e82b61c32dbcfa41b73804fb01392bc7',
+      47692,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '571721e6f096baff44cf55b1c08ba2f51774bdfceffae28ed35dcb3cb9b84c8c',
+      47640,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '48513533bec634e8f6ef4bae2a8b4d6238c72a6327c2396c3d33cb8e5e78c63d',
+      47716,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd794fc350a5e9a95a7d3dcd8b0f2e73875a31af117132823f18b8795e614a31a',
+      47652,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4bfece19aadcac1e47b9eb19c30b618f3813e63326b81358ae7ce3c805596332',
+      47532,
+    ),
+  };
 
   /// Applies the Assistant font family from Google Fonts to the
   /// given [textStyle].
@@ -11759,6 +15446,24 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> astlochFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a7a7c68cac2873d07058859ca8ea09c343c2d86b4856fc4228d747cc66738e71',
+      49252,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a5d9efacd4b695ad23eea17dc7c59305ddc3ce9db72cb9508be52cb932ea6de0',
+      50852,
+    ),
+  };
+
   /// Applies the Astloch font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -11853,6 +15558,24 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> asulFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd0ebee9c24737bfbf7941531211f0a3a74d695e20f0a0eefb3833aa64a85c4bf',
+      31008,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '71b1dd571c850e1639994da171f0249f3955ac41d5d31153bf29f29da1e10779',
+      30988,
+    ),
+  };
+
   /// Applies the Asul font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -11946,6 +15669,52 @@ class PartA {
       labelSmall: asul(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> athitiFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '696cbfd50124dc9018b35cd34f14c2087a57e8a1a4f5b85412930f5a8b0d927d',
+      96028,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'bc712088d5e10d28733039df5b64a70792596852e2b3476d106d3ab0eb764c98',
+      94860,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2616631b1611fdb8b7ce24b5a7ca2fcc9ed30c586f57109005e4dae361cfae1c',
+      95952,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2a3112766cdc5e82e50149f5422d4e7ac6d90ba554076d429c00c361725c6c1c',
+      96036,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd486640632fcfc522d9013c7ae37991f4da6fd251dfc845736f1534208999d89',
+      95560,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '389e4c7f43470ba0f7a9fb90fcb73eb264aae54974e0befa5bdc6258c4fc16c9',
+      96436,
+    ),
+  };
 
   /// Applies the Athiti font family from Google Fonts to the
   /// given [textStyle].
@@ -12069,6 +15838,38 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> atkinsonHyperlegibleFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ee6c7c3c6598f81ae3ec64565252b7f85f2031e129fa9d4ee4a0c12839889264',
+      35304,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '0c3580a9c2f9fc899b61f5a7eca7e6fd73982d2cea63a100232d524b9278495b',
+      35728,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0fc08c96a91a8628172873529de9df0edb16de404ff7c2c109df2ca7745b0820',
+      35496,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '9d2a564178567b3fccc75106d67b487e6b583dd2028056142b62788671a8af5f',
+      36056,
+    ),
+  };
+
   /// Applies the Atkinson Hyperlegible font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -12176,6 +15977,45 @@ class PartA {
       labelSmall: atkinsonHyperlegible(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> atmaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '21d24feb8932a5ec944a0bb087e8c1e33ca1c507249ea04a9a1abbd0a6d211de',
+      189740,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '70176c593f928f5d887f72a285ffdd740818e7ae96648878f721b78f2ce65c56',
+      191388,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1f7bd4f49bac741683b8f145d6f52956bbe0f8614ca0beb0b7105ff30c5a8748',
+      190840,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7929b2c30b891226514c0e917a60ac5cc650b0fb94dc4aaa7006836720159776',
+      189940,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a61d48250e608b03a3e0ec56a2bd28e07a880b144acfcbd757ad6bad3d563a66',
+      186912,
+    ),
+  };
 
   /// Applies the Atma font family from Google Fonts to the
   /// given [textStyle].
@@ -12292,6 +16132,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> atomicAgeFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a9f2142938d6ee0e74907390e66d9ea05265c756dc4b93fa8e81a160ca449ab1',
+      40672,
+    ),
+  };
+
   /// Applies the Atomic Age font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -12378,6 +16229,17 @@ class PartA {
       labelSmall: atomicAge(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> aubreyFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8ca62b5d441c31bf4bb2af48b336acbd0c109ead24d4b7dcc734c428d66b7f1a',
+      32668,
+    ),
+  };
 
   /// Applies the Aubrey font family from Google Fonts to the
   /// given [textStyle].
@@ -12466,6 +16328,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> audiowideFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '078dd790aa7505065d5d579077bde98a59edcfbdc4e8efeff86813e8b7ae2859',
+      46544,
+    ),
+  };
+
   /// Applies the Audiowide font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -12552,6 +16425,17 @@ class PartA {
       labelSmall: audiowide(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> autourOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '835e4cf3882094e87b1cc6738455d27c58666e50595b7304fe641bb9d371bddf',
+      56644,
+    ),
+  };
 
   /// Applies the Autour One font family from Google Fonts to the
   /// given [textStyle].
@@ -12640,6 +16524,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> averageFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '22aaa82479b458375c6ae410aa74bb669225d52d9782cb3f301ac70db520b723',
+      51556,
+    ),
+  };
+
   /// Applies the Average font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -12726,6 +16621,17 @@ class PartA {
       labelSmall: average(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> averageSansFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'db7e01f028c635aef313afbb32495c914fa586be304b27ef0f93996e1d861d76',
+      40392,
+    ),
+  };
 
   /// Applies the Average Sans font family from Google Fonts to the
   /// given [textStyle].
@@ -12814,6 +16720,17 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> averiaGruesaLibreFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '879c55ff64c5c857842f76d67c79f6a96ed3e5a90b4dc3bee62a508b87ce77da',
+      110136,
+    ),
+  };
+
   /// Applies the Averia Gruesa Libre font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -12900,6 +16817,52 @@ class PartA {
       labelSmall: averiaGruesaLibre(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> averiaLibreFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7e7822881be83db88a6a6674b8ef18760d8fb01b44cc07898b1b686204f22c24',
+      106720,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '478d586176da94e754eda5ef0481c71000c7a82be20445a3f04dbf2ecf276ba5',
+      132056,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e5dbc6d83b9f1a68d3be7cc777ec96e097a2a02ae5ca2a3f18f39e720f6e379b',
+      107020,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'c592b4893f6fa2059fdbf44bf1a29bf18ef204851d4775bf3ec3878283c54d4e',
+      127372,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '41216d0ca8e7db003bdafb5f53bd3425def86c7321217f68da77baf0feac4769',
+      110832,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '20f2ca7436a510cc1acc4be8a1340bb9a981f734e07ae1049d66c576d3112871',
+      134260,
+    ),
+  };
 
   /// Applies the Averia Libre font family from Google Fonts to the
   /// given [textStyle].
@@ -13023,6 +16986,52 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> averiaSansLibreFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6fd813c721322675b22117fb87bdd15056500778edde8f452bcd82ced8a3f492',
+      106264,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '5ff26e28a2cdc307146940b4cb95860cb6f6e2da4b0657be9790357e36c2f99e',
+      132696,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '94795aa3af0b8abf865caa303e6a8204dbf2fbac7fd4bd479026b6a8f1c62d0a',
+      106888,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ab985b05b0660f341b1d7af94b178478dafb1441a052997b59affa822b1cd001',
+      127404,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5409e213a481c70a749bf668a35f379ad538eeb4b974a84b7717a23ae41280aa',
+      111544,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'fdfcd86a49a065706fde33a5de437070e5218f93af70579b548529871d93b457',
+      134372,
+    ),
+  };
+
   /// Applies the Averia Sans Libre font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -13145,6 +17154,52 @@ class PartA {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> averiaSerifLibreFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '32aa4d80e559da5451c0cb6050ab11f77f328ebfa53e42c0386e9321cc89f323',
+      108484,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e88db886cc7c076f44e9332224f6036ce194f436d8fd0895fc754b0f6a263f50',
+      134468,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c35b8a9a2e23a7ce4701d84eff2545820fbab71354afa2934c347a018d9666a9',
+      108508,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '23d5fb1d7dc8852645bb89985e453c865af069908dbf59bb0f6d3421d589844e',
+      129480,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0ae837bda22640e15d8c380d4eb2bd97ae69cdddd5f4966c9909cb127077825f',
+      112472,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ca61b0379b7e928b63dcb87b94d856bc0d0288038fc53f5ad6e3387c4b1891e7',
+      136700,
+    ),
+  };
+
   /// Applies the Averia Serif Libre font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -13266,6 +17321,136 @@ class PartA {
       labelSmall: averiaSerifLibre(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> azeretMonoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e376dc172013c157a84376a8c103e21fe0e00136117c6ede635f6d7041a80aec',
+      36332,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c84e04b76228e1699753b6ffb045442da0eaddbf69ac68e7515e489eb598bd37',
+      36372,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '63beec477c3111e9c6848ee48d05bb30c9b38791bdbc6203fcf3addf0cd8b929',
+      36292,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'c8fbb726b1e15b8e6fd5f0d01fe74eac5612c451126e6d18de2dd79dd45f2076',
+      36252,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '56c6b02d6b8bf9d5af614b87f65a169dc173dafaba91555b009bf4f286cad919',
+      36316,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4345cabf13b67f88be2af61e58df98c0bb3703ad05996c9539f67a48a8a86757',
+      36208,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ccb4627d3e722e6ba1e1d577ab03f583dc5d265e58392d24ccd68abbe41d1a3a',
+      36120,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'a33c609257c09b9acdee6a95cfe187feb019e1038db2a4d3c8bdc2b84255dc22',
+      36292,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1f82d72f542e396469f795d3e8bc382fc38d7354781b2ac386b8339d8b813e82',
+      36340,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '568788fb7b88d3ac1b1da81d4b3fe391c5160c524f5627f28fc64196e0defbb2',
+      37464,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '6c4852ffbc91796e558d139523b059f4b7c9f217bb213c7c8cf66ecb95440033',
+      37556,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '47c8f756184a4ab76ffb1da899a7c8c24446c8a024cc92fb0b8398171acfadfb',
+      37452,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '3b34f251e08faac5a23373adad83969c247110c5ee90b114665d379470db790a',
+      37360,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'df19d816542b6967040cdc509d395151af7a58579d2af43517043785b4a23b03',
+      37516,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '0dbb7dff740e5d9edc0234e99338ceccc7127bd36046387cd67e599b3c5a49d1',
+      37484,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '039eeeaa5d4fb10910a83d7566140f0ea3cd1039ba7582740a5a55f7b9867d0f',
+      37256,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '749d9513d509c099a2e28225af6c2e73bf900a7694957228b9531714d4b6bbec',
+      37432,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '8ece4e25cbe91414408b36478a19ee0a7bcfd8f0bc546f2bb4f4404a00ef5b21',
+      37488,
+    ),
+  };
 
   /// Applies the Azeret Mono font family from Google Fonts to the
   /// given [textStyle].

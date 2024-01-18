@@ -12,6 +12,52 @@ import '../google_fonts_variant.dart';
 
 /// Methods for fonts starting with 'D'.
 class PartD {
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dmMonoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8ff334baf94fa64c73ee943b528b734656c98dfaee175025a796a21066dfb6a0',
+      28092,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '72d9ace813762218c3d761058169bb89da3755116610523ad455fba80d838b32',
+      29252,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b99c005612081b9d6aab1d23679a2a20c304b46e963201d315c06c28ca25eadc',
+      28128,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '104a4afc4b0a5e735734312132abffb54a40b2f78e7302cc9fd5201cd0943bb2',
+      29264,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f83244fb95aa75e3aec6465372381691aae04a3ac26b308a8357449a8a34567e',
+      27964,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'd9484b55dc0127df05769db899c40cd6afcdb390fb899ba3f4ddfbc3be86e1b1',
+      29284,
+    ),
+  };
+
   /// Applies the DM Mono font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -133,6 +179,136 @@ class PartD {
       labelSmall: dmMono(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dmSansFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '293d525f5f7eace6f5028ebc08c6ca1098331e387a052586be24a247b3195f05',
+      48268,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '21d8f6e1b66bbfcffa43f5f3ea401735db985548cc18dc9ddf3b0406ab14dc6c',
+      48332,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e65de0f51603623fdb30ca0dcc06e67d79317c9cd4443128be7aa18fc7fddc9c',
+      48272,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '62a6648bbb53317b26f816c0b0c150e44d80122e76ad0b26b7e4c381638875b2',
+      48260,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f1f423f47d938e29fc63bb611c0748be76c741f06cdb87bcc29d5708ab203f29',
+      48284,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f0c74b9d542f889adc76fa025d198009e44fccf5c10fdce8a1bf418a57db56b3',
+      48256,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd50723da93e1a86c8294fca68377dc976a5b63756825fd1622a9f354e070089b',
+      48176,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ea3f8d2d917cb2f043469bc29b2afa4f79ef9fbb350578b58f31b87b8299cc7b',
+      48248,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '42fe4d68768d016ddbf7ba67b5a9e2ac795ffea922cf3fe41b08aa996c0d33b8',
+      48272,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w100,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e1b6f371ccf581ecb2eb974512122f345ca7e8990b6e1b8f94733640d5092f93',
+      51228,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'a2058e87a0a5d111e195e5ea9edef8382dfa86b5833aeb0738e2f90c64a11fcf',
+      51292,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '58e9f109ba1bbcdc14f3e1ab31ef55526ddc2fc5172d025a77776febdf51d701',
+      51240,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'a84455c117c252e20b3be0101a6113cc1ab3948e77de4d4e461ac313acaceeb2',
+      51120,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '425993280db3ad011ffdcda0b664836c390b4831e448b3954d7035629a638eb9',
+      51260,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'd64df25038e907f5c4fcb5826e7fdeea0007266929f8e06ae8cbb34297aa66f7',
+      51132,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '4b16d369fee56c81f5e5d5adef22858d0aa38db534d9b768bfedfb1466916fe4',
+      51104,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e2c04c0d83f4e5c04c5cc609b6546bac64f401be427a11883736786865be9276',
+      51212,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '73dcba47f0e327998ca98a504f12d2facd80ede363574f94f5ab41893fbe0ad5',
+      51124,
+    ),
+  };
 
   /// Applies the DM Sans font family from Google Fonts to the
   /// given [textStyle].
@@ -340,6 +516,24 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dmSerifDisplayFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fc1fbdc15a55aed5cd062b1714e00fc5273739476643f0b1f16b567f491660ba',
+      52644,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'fe24375d0d73b90fae5e0a7785b66f8ddd2bcdcde9c158d3a18e2474a3247dfc',
+      50608,
+    ),
+  };
+
   /// Applies the DM Serif Display font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -434,6 +628,24 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dmSerifTextFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd1cb8113b59d3123e9b88873758b7287d076f20e8f0a643ee32853aaaa498ed9',
+      52688,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'ca8e3bda889c19ab008b6a3da757e4ab64a31664792d4975df42bc823f028025',
+      50420,
+    ),
+  };
+
   /// Applies the DM Serif Text font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -527,6 +739,80 @@ class PartD {
       labelSmall: dmSerifText(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> daiBannaSilFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f8b58049c437bd3288ffcc7a67ac4124ee6dc044bae772e4457a650c7ae776b8',
+      51996,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'e089802eb4875f1b79aa372bfca86fd4d3140bafef71c59b20d625e9cbd511cb',
+      55384,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '44dbdd8e54d7e22f6aeec2b0e7aced4aa78268a03028e18a555ffe68f139f109',
+      51720,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      '1c53ef31d81830b0a03c5e0b5fa44708cf0b880fbe02547b3dfd9c47178095b2',
+      55300,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f13a00387309caf2cab0a34b7aaea1b206cb7a21d922a20fb0ff5efb5ff2e67f',
+      51776,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'a0b57fc5c0542ca292e3b4915925f60f6e5806088093f57179a52cb8e1d5d067',
+      55568,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'dae227f92d1dc91caa3b1367cb334dc7b94ff2b4d9886bdf61b9fbe50e884a12',
+      52172,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'd5616fd01531158a3aa11e2979892afaedd3dd1b47a62642335b13d9197c4292',
+      55984,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '80ddb3b55a5f36b120e41645c94e49c1f8c0efb29f03a00d51c8d0e951f1500b',
+      53064,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.italic,
+    ): GoogleFontsFile(
+      'da0ec4eeac5f684b8a7e9d648092b4b3042b12db53e19685ea5c001ae97e9b41',
+      56796,
+    ),
+  };
 
   /// Applies the Dai Banna SIL font family from Google Fonts to the
   /// given [textStyle].
@@ -678,6 +964,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> damionFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9d625c14324a2a339caf3816f5e3ce355702b16814eb59349eeb0e9058975479',
+      35916,
+    ),
+  };
+
   /// Applies the Damion font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -764,6 +1061,38 @@ class PartD {
       labelSmall: damion(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dancingScriptFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '27e93f8e8adcc5d22686950b80006cb51bba52c04c1fe8d557897f9a52021b13',
+      76316,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '3add8f13167436c263ca0f4c25e772e5470a2fc1a37ccafeee63d81956647894',
+      76648,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4fbe7ef035be86813577ae0035cc84ddc2d67cb0f1c3aebaa0dd0d54da29f4c6',
+      76640,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '35fa1edc074227f29e36b91546fde7efd9e51005da8b6ed383f403ea4c5a5efe',
+      76568,
+    ),
+  };
 
   /// Applies the Dancing Script font family from Google Fonts to the
   /// given [textStyle].
@@ -873,6 +1202,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dangrekFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '69a0c9e60b6dd9801a97085e57a28499d4d943dc507570c2a6d00cf776a9f585',
+      38976,
+    ),
+  };
+
   /// Applies the Dangrek font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -959,6 +1299,59 @@ class PartD {
       labelSmall: dangrek(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> darkerGrotesqueFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2acc32ed45258114e762421600dd0a599d6cbdb4943142182f09d2cc6f9db3b7',
+      47640,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '80d13b60b4330594d59a0f4d5de81eff78b0d1a9bad9ba5b23fd0a00c49d91a1',
+      47752,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '593f886ab678262b054f5805a0272cd7bf53d17e1cdffe702adc48810ae80662',
+      47720,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd623721d07922987ec540ca0e5d8eec2f5905a55dfa9c4b15b709482c9560f1e',
+      47744,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4da7c489dc43fcd166c32d55ad917eb6b1aa0a0965d2fdb63ac6275a7eae3664',
+      47724,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'cbf707d6e6e9cd08c4df6f20242520cb32340b98f1429b691b80f1f8fc20f235',
+      47688,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w900,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd8c63a88f2d3bb7ba7dce056242f2cfbce2c23bb6f79aed0e343fa008f909fcf',
+      47440,
+    ),
+  };
 
   /// Applies the Darker Grotesque font family from Google Fonts to the
   /// given [textStyle].
@@ -1089,6 +1482,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> darumadropOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '570b43588bf4d733c28f7a0e7d7f1feeb34a4575e239116740b7c525442a3118',
+      358396,
+    ),
+  };
+
   /// Applies the Darumadrop One font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1175,6 +1579,31 @@ class PartD {
       labelSmall: darumadropOne(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> davidLibreFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e153f5e8f6fff8c254d7733b84d18a6ccd117f9f0cfee49fe461dd20841d043c',
+      85096,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '60bb0c7e7e67600b3af4e8b238c3c1e9234e98c0194594a39794db1dac7b56cf',
+      85472,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5682ff7de5c0f7baba5d5b05b12987b0dc8e8b7ac861a7d88f8cf603b951581a',
+      86424,
+    ),
+  };
 
   /// Applies the David Libre font family from Google Fonts to the
   /// given [textStyle].
@@ -1277,6 +1706,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dawningOfANewDayFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e0f9c4b9a3b73d432a325f5657aa22dd916e63c7413f3a8eea76c0718a4b1365',
+      50148,
+    ),
+  };
+
   /// Applies the Dawning of a New Day font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1363,6 +1803,17 @@ class PartD {
       labelSmall: dawningOfANewDay(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> daysOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '5faba5029439f25f602d79eec007a3352e57cd3ea53fee51859f0e4bf4497230',
+      62680,
+    ),
+  };
 
   /// Applies the Days One font family from Google Fonts to the
   /// given [textStyle].
@@ -1451,6 +1902,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dekkoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '36fdc3263fa4fabc6785c0ceadb93bdf2dbbfe76dcb9330a3cd74119ae9d47a2',
+      204816,
+    ),
+  };
+
   /// Applies the Dekko font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1537,6 +1999,17 @@ class PartD {
       labelSmall: dekko(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> delaGothicOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'ca21b702c5c8a96a3431bd7b7496c315b8808939cd986072230e4167da1b4dbf',
+      2477372,
+    ),
+  };
 
   /// Applies the Dela Gothic One font family from Google Fonts to the
   /// given [textStyle].
@@ -1625,6 +2098,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> deliciousHandrawnFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7acfa4144e782e6d0ef721f8c64dfd2815606849b837427be442b8d0c789ba3b',
+      61064,
+    ),
+  };
+
   /// Applies the Delicious Handrawn font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1711,6 +2195,17 @@ class PartD {
       labelSmall: deliciousHandrawn(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> deliusFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd71a681bf201c3e2e4075c6da5728d4daa820addcf1605687458820d2f8bee8b',
+      58256,
+    ),
+  };
 
   /// Applies the Delius font family from Google Fonts to the
   /// given [textStyle].
@@ -1799,6 +2294,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> deliusSwashCapsFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6367e7d176347cd4cd7eefee03f80af10a3e4325b04cfa08c84121d6720ffa75',
+      60040,
+    ),
+  };
+
   /// Applies the Delius Swash Caps font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -1885,6 +2391,24 @@ class PartD {
       labelSmall: deliusSwashCaps(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> deliusUnicaseFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '36a2a1b2c70cadfb729f3457ec1d9c4141222533e167b8620b929340d6fd70c6',
+      31020,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '419648b741308df1323d518eea0385675205b268f8b793c8b560e5c6366b9906',
+      34376,
+    ),
+  };
 
   /// Applies the Delius Unicase font family from Google Fonts to the
   /// given [textStyle].
@@ -1980,6 +2504,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dellaRespiraFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2680566048569a284fa0dabe684604b64700db4034d2b9cb1d8f618eb8f4c0f8',
+      48188,
+    ),
+  };
+
   /// Applies the Della Respira font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2066,6 +2601,17 @@ class PartD {
       labelSmall: dellaRespira(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> denkOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6260ab475bea2b433c6cb88cd50b47f6ef7fee263be2d3417ea36f58e839fd2d',
+      273520,
+    ),
+  };
 
   /// Applies the Denk One font family from Google Fonts to the
   /// given [textStyle].
@@ -2154,6 +2700,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> devonshireFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '010b72e1a4a538d1cd0f5cc3102047f9ea65c50b6349a2f811b3bd800ffe5512',
+      64116,
+    ),
+  };
+
   /// Applies the Devonshire font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2240,6 +2797,17 @@ class PartD {
       labelSmall: devonshire(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dhurjatiFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7bab2399e158e07a85421075188050d4d87a5689e43225c10021730543793b19',
+      534564,
+    ),
+  };
 
   /// Applies the Dhurjati font family from Google Fonts to the
   /// given [textStyle].
@@ -2328,6 +2896,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> didactGothicFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '84399f52701c9c84b662cc9e1fd84306753a5c127af35c8acec6f6db6f9adde4',
+      117800,
+    ),
+  };
+
   /// Applies the Didact Gothic font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2414,6 +2993,17 @@ class PartD {
       labelSmall: didactGothic(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> diphylleiaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2a8250befe5a450cc40bab76b3e54049aa7ef1808fa37e7e3a457ddde5b961bb',
+      1408048,
+    ),
+  };
 
   /// Applies the Diphylleia font family from Google Fonts to the
   /// given [textStyle].
@@ -2502,6 +3092,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> diplomataFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fd885b981023b4adda3127a3a65160ab2c8c6926eca8cc9cc58d0f3a1350f791',
+      52556,
+    ),
+  };
+
   /// Applies the Diplomata font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2588,6 +3189,17 @@ class PartD {
       labelSmall: diplomata(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> diplomataScFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '285bb4217ff88e268cf1d4956fb9053bef807aa519261e177990eaf00b654d24',
+      51392,
+    ),
+  };
 
   /// Applies the Diplomata SC font family from Google Fonts to the
   /// given [textStyle].
@@ -2676,6 +3288,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> doHyeonFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'fff9504dbe6d4d337e28af407002426d31dda9650ecce49da29a5bbe5afcd252',
+      408348,
+    ),
+  };
+
   /// Applies the Do Hyeon font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2763,6 +3386,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dokdoFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'd07c17d9103584b546ec45e876d54645c5b10ada0b20b27381cb96948794772d',
+      1385692,
+    ),
+  };
+
   /// Applies the Dokdo font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -2849,6 +3483,38 @@ class PartD {
       labelSmall: dokdo(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> domineFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '46d7874196f766f51948f261916e3eca65ccd98c5427a84c678b2099d3bab5e0',
+      64464,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e6f826c4056482add6da48619d00eeaa72929570251084f62fab6f71fe67e610',
+      64636,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '0e051d0c2bbb43e2b920bdf71c560e7dfa1dff2b50f590e33182b03b3219ecd6',
+      64604,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4c18819376337ea3042faccd64f85ef1a687e49535fede7ccc8c84ed421c6ed0',
+      64548,
+    ),
+  };
 
   /// Applies the Domine font family from Google Fonts to the
   /// given [textStyle].
@@ -2958,6 +3624,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> donegalOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b15d824bb9e23c5dd2c4a795f2207f17ec2fc78f294dcb0c445b6dc2b0be9e2d',
+      41384,
+    ),
+  };
+
   /// Applies the Donegal One font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -3044,6 +3721,31 @@ class PartD {
       labelSmall: donegalOne(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dongleFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '52b8b275e5f187f63f0796d48347fd91361efae7f8620fde46b2bdc40445a0b3',
+      4386532,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6e18c2125d7fff84a358208bfee9cec403a5ad43cc5307df066844fe61eb1fde',
+      4456124,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '98f28ab68f53725135d76abcdf3024700600ec4f7057ff963a7803b364dc6a50',
+      4474064,
+    ),
+  };
 
   /// Applies the Dongle font family from Google Fonts to the
   /// given [textStyle].
@@ -3146,6 +3848,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> doppioOneFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '2eb94a5087c2e3c58fb5ece423e485a52abbc036bb14d81515e2402ba4bc36ee',
+      33196,
+    ),
+  };
+
   /// Applies the Doppio One font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -3233,6 +3946,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dorsaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '9fbb563ecf470cba0de50596a20910770ce04ae2cdea0018acf0cf456d915353',
+      19104,
+    ),
+  };
+
   /// Applies the Dorsa font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -3319,6 +4043,59 @@ class PartD {
       labelSmall: dorsa(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dosisFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w200,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '7c1f0d4ec6895c7b786555a9f0ca35ee83504a2b555a6e1f0a37e2b724d7a929',
+      69040,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w300,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'f6188fce1ab981d47b9984c852f2a6c772937bc244e874d8b65136a12f044e2d',
+      69196,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '38f5771ecaa79286393e5abb8f576f173c47304ed9b13ae5310225e8476c1f27',
+      69300,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'b86aefd340dae8abc905606bd43e83a3ba63889c2be7b8c47f64973badde1d53',
+      69216,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '6ae5912d839e3101c5d511101fd07f8de2d175122e434c0bf6341a4dbf2a17f3',
+      69244,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e50105b66b430f7ced4dafc2fbd35b061b10e98f9169c61abf0aefb566740add',
+      69152,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w800,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'dfc33ca9107be218b0d2e9a42ffc5bcab81138a0ba701f27229fa00ef019e14a',
+      69148,
+    ),
+  };
 
   /// Applies the Dosis font family from Google Fonts to the
   /// given [textStyle].
@@ -3449,6 +4226,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dotGothic16Fonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      'e40519a2876d3a3872c93b81a0ace75d83fd74efbcb080115de9f594a7aa0625',
+      1903464,
+    ),
+  };
+
   /// Applies the DotGothic16 font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -3535,6 +4323,17 @@ class PartD {
       labelSmall: dotGothic16(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> drSugiyamaFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '1fb2979359fa0db24d07995444bc13f3efd562f3b8740b8f365c25acb1cb2424',
+      38004,
+    ),
+  };
 
   /// Applies the Dr Sugiyama font family from Google Fonts to the
   /// given [textStyle].
@@ -3623,6 +4422,17 @@ class PartD {
     );
   }
 
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> duruSansFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '626d4fd7f859fbfa0ba5a8db35e636bf031dcd3542141a0496026b90e2b9d2cc',
+      47188,
+    ),
+  };
+
   /// Applies the Duru Sans font family from Google Fonts to the
   /// given [textStyle].
   ///
@@ -3709,6 +4519,38 @@ class PartD {
       labelSmall: duruSans(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dynaPuffFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '530885e77a6fee60d04b92ba2c3527fd6bd15cfecd3a886d157650a6d75ff728',
+      87836,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w500,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '59ee240e077e12323d6c4453508480b5b94d3798b84821244f3e35a04d65ba04',
+      87932,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w600,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4a588d62c97ce442e7b1f1a313273e94d30aac3c539d2b14cb1364e7a84d756e',
+      87956,
+    ),
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w700,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '4314ea94ec4741add9168a2776bf1c075daf243583c4c37a061bf885541adb98',
+      87836,
+    ),
+  };
 
   /// Applies the DynaPuff font family from Google Fonts to the
   /// given [textStyle].
@@ -3817,6 +4659,17 @@ class PartD {
       labelSmall: dynaPuff(textStyle: textTheme.labelSmall),
     );
   }
+
+  // Exposing the fonts variant
+  static Map<GoogleFontsVariant, GoogleFontsFile> dynalightFonts = {
+    const GoogleFontsVariant(
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+    ): GoogleFontsFile(
+      '8f3df30743a90267ad6da31bedc99aaf357e8f489097dfdf852d8bea4d6ff947',
+      49760,
+    ),
+  };
 
   /// Applies the Dynalight font family from Google Fonts to the
   /// given [textStyle].
