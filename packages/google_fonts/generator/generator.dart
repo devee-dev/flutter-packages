@@ -11,6 +11,7 @@ import 'package:mustache_template/mustache.dart';
 import 'fonts.pb.dart';
 
 const _generatedMainFilePath = 'lib/google_fonts.dart';
+const _generatedUrlsFilePath = 'lib/google_fonts_urls.dart';
 _generatedPartFilePath(String part) =>
     'lib/src/google_fonts_parts/part_$part.dart';
 const _familiesSupportedPath = 'generator/families_supported';
@@ -197,6 +198,17 @@ class _FamiliesDelta {
   }
 }
 
+Iterable _makeFontUrls(FontFamily item) => [
+      for (final variant in item.fonts)
+        {
+          'variantWeight': variant.weight.start,
+          'variantStyle':
+              variant.italic.start.round() == 1 ? 'italic' : 'normal',
+          'hash': _hashToString(variant.file.hash),
+          'length': variant.file.fileSize,
+        },
+    ];
+
 void _generateDartCode(Directory fontDirectory) {
   final methods = <Map<String, dynamic>>[];
 
@@ -230,16 +242,7 @@ void _generateDartCode(Directory fontDirectory) {
       'fontFamily': familyNoSpaces,
       'fontFamilyDisplay': family,
       'docsUrl': 'https://fonts.google.com/specimen/$familyWithPlusSigns',
-      'fontUrls': [
-        for (final variant in item.fonts)
-          {
-            'variantWeight': variant.weight.start,
-            'variantStyle':
-                variant.italic.start.round() == 1 ? 'italic' : 'normal',
-            'hash': _hashToString(variant.file.hash),
-            'length': variant.file.fileSize,
-          },
-      ],
+      'fontUrls': _makeFontUrls(item),
       'themeParams': [
         for (final themeParam in themeParams) {'value': themeParam},
       ],
@@ -289,6 +292,16 @@ void _generateDartCode(Directory fontDirectory) {
     'method': methods,
   });
   _writeDartFile(_generatedMainFilePath, renderedTemplate);
+
+  final urlsTemplate = Template(
+    File('generator/google_fonts_urls.tmpl').readAsStringSync(),
+    htmlEscapeValues: false,
+  );
+  final renderedUrlsTemplate = urlsTemplate.renderString({
+    'method': methods,
+  });
+
+  _writeDartFile(_generatedUrlsFilePath, renderedUrlsTemplate);
 }
 
 void _writeDartFile(String path, String content) {

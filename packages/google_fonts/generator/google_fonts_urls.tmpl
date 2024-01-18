@@ -1,0 +1,31 @@
+// GENERATED CODE - DO NOT EDIT
+
+// Copyright 2019 The Flutter team. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+import 'package:flutter/material.dart';
+
+import 'src/google_fonts_descriptor.dart';
+import 'src/google_fonts_variant.dart';
+
+/// Provides configuration, and static methods to obtain [TextStyle]s and [TextTheme]s.
+///
+/// {@youtube 560 315 https://www.youtube.com/watch?v=8Vzv2CdbEY0}
+///
+/// Obtain a map of available fonts with [asMap]. Retrieve a font by family name
+/// with [getFont]. Retrieve a text theme by its font family name [getTextTheme].
+///
+/// Check out the [README](https://github.com/material-foundation/flutter-packages/blob/main/packages/google_fonts/README.md) for more info.
+class GoogleFontsUrls {
+  static Map<String, Map<GoogleFontsVariant, GoogleFontsFile>> list = {
+    {{#method}}
+    '{{fontFamilyDisplay}}': {
+        {{#fontUrls}}
+        const GoogleFontsVariant(fontWeight: FontWeight.w{{variantWeight}}, fontStyle: FontStyle.{{variantStyle}},): GoogleFontsFile('{{hash}}', {{length}},),
+        {{/fontUrls}}
+    },
+    {{/method}}
+  };
+
+}
