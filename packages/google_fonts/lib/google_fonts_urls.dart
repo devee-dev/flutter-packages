@@ -4,7 +4,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'src/google_fonts_descriptor.dart';
+class GoogleFontsFile {
+  GoogleFontsFile(this.expectedFileHash, this.expectedLength);
+
+  final String expectedFileHash;
+  final int expectedLength;
+
+  String get url => 'https://fonts.gstatic.com/s/a/$expectedFileHash.ttf';
+}
 
 class GoogleFontsVariant {
   const GoogleFontsVariant({
