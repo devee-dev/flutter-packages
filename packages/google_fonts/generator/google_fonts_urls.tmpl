@@ -33,22 +33,23 @@ enum FontStyle {
 }
 
 enum FontWeight {
-  w100(100),
-  w200(200), 
-  w300(300),
-  w400(400),
-  w500(500),
-  w600(600),
-  w700(700),
-  w800(800),
-  w900(900),
-  normal(400),
-  bold(700);
+  w100(100, 'Thin'),
+  w200(200, 'Extra light'),
+  w300(300, 'Light'),
+  w400(400, 'Regular'),
+  w500(500, 'Medium'),
+  w600(600, 'Semi bold'),
+  w700(700, 'Bold'),
+  w800(800, 'Extra bold'),
+  w900(900, 'Black'),
+  normal(400, 'Regular'),
+  bold(700, 'Bold');
 
-  const FontWeight(this.value);
+  const FontWeight(this.value, this.label);
 
   /// The thickness value of this font weight.
   final int value;
+  final String label;
 }
 
 /// Provides configuration, and static methods to obtain [TextStyle]s and [TextTheme]s.
