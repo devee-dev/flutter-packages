@@ -1,3 +1,155 @@
+## 6.6.0 - 2025-01-10
+### Added
+- `AR One Sans`
+- `Afacad`
+- `Agbalumo`
+- `Annapurna SIL`
+- `Anta`
+- `Anton SC`
+- `Arsenal SC`
+- `Baskervville SC`
+- `Beiruti`
+- `Bodoni Moda SC`
+- `Bona Nova SC`
+- `Cactus Classical Serif`
+- `Chocolate Classical Sans`
+- `Danfo`
+- `Edu AU VIC WA NT Hand`
+- `Freeman`
+- `Fustat`
+- `Ga Maamli`
+- `Gabarito`
+- `Hedvig Letters Sans`
+- `Hedvig Letters Serif`
+- `Honk`
+- `Jacquard 12`
+- `Jacquard 12 Charted`
+- `Jacquard 24`
+- `Jacquard 24 Charted`
+- `Jacquarda Bastarda 9`
+- `Jacquarda Bastarda 9 Charted`
+- `Jaini`
+- `Jaini Purva`
+- `Jaro`
+- `Jersey 10`
+- `Jersey 10 Charted`
+- `Jersey 15`
+- `Jersey 15 Charted`
+- `Jersey 20`
+- `Jersey 20 Charted`
+- `Jersey 25`
+- `Jersey 25 Charted`
+- `Kalnia`
+- `Kalnia Glaze`
+- `Kay Pho Du`
+- `Kode Mono`
+- `LXGW WenKai Mono TC`
+- `LXGW WenKai TC`
+- `Linefont`
+- `Madimi One`
+- `Maname`
+- `Micro 5`
+- `Micro 5 Charted`
+- `Namdhinggo`
+- `Noto Sans Kawi`
+- `Noto Sans NKo Unjoined`
+- `Noto Serif JP`
+- `Noto Serif KR`
+- `Noto Serif Old Uyghur`
+- `Noto Serif SC`
+- `Noto Serif TC`
+- `Noto Znamenny Musical Notation`
+- `Ojuju`
+- `Onest`
+- `Pixelify Sans`
+- `Platypi`
+- `Playpen Sans`
+- `Playwrite AR`
+- `Playwrite AT`
+- `Playwrite AU NSW`
+- `Playwrite AU QLD`
+- `Playwrite AU SA`
+- `Playwrite AU TAS`
+- `Playwrite AU VIC`
+- `Playwrite BE VLG`
+- `Playwrite BE WAL`
+- `Playwrite BR`
+- `Playwrite CA`
+- `Playwrite CL`
+- `Playwrite CO`
+- `Playwrite CU`
+- `Playwrite CZ`
+- `Playwrite DE Grund`
+- `Playwrite DE LA`
+- `Playwrite DE SAS`
+- `Playwrite DE VA`
+- `Playwrite DK Loopet`
+- `Playwrite DK Uloopet`
+- `Playwrite ES`
+- `Playwrite ES Deco`
+- `Playwrite FR Moderne`
+- `Playwrite FR Trad`
+- `Playwrite GB J`
+- `Playwrite GB S`
+- `Playwrite HR`
+- `Playwrite HR Lijeva`
+- `Playwrite HU`
+- `Playwrite ID`
+- `Playwrite IE`
+- `Playwrite IN`
+- `Playwrite IS`
+- `Playwrite IT Moderna`
+- `Playwrite IT Trad`
+- `Playwrite MX`
+- `Playwrite NG Modern`
+- `Playwrite NL`
+- `Playwrite NO`
+- `Playwrite NZ`
+- `Playwrite PE`
+- `Playwrite PL`
+- `Playwrite PT`
+- `Playwrite RO`
+- `Playwrite SK`
+- `Playwrite TZ`
+- `Playwrite US Modern`
+- `Playwrite US Trad`
+- `Playwrite VN`
+- `Playwrite ZA`
+- `Poetsen One`
+- `Protest Guerrilla`
+- `Protest Revolution`
+- `Protest Riot`
+- `Protest Strike`
+- `Radio Canada Big`
+- `Reddit Mono`
+- `Reddit Sans`
+- `Reddit Sans Condensed`
+- `Rethink Sans`
+- `Rubik Broken Fax`
+- `Rubik Doodle Shadow`
+- `Rubik Doodle Triangles`
+- `Rubik Glitch Pop`
+- `Rubik Lines`
+- `Rubik Maps`
+- `Rubik Scribble`
+- `Sedan`
+- `Sedan SC`
+- `Sixtyfour`
+- `Sometype Mono`
+- `Tac One`
+- `Teachers`
+- `Tiny5`
+- `Ubuntu Sans`
+- `Ubuntu Sans Mono`
+- `Wittgenstein`
+- `Workbench`
+- `Yarndings 12`
+- `Yarndings 12 Charted`
+- `Yarndings 20`
+- `Yarndings 20 Charted`
+- `Young Serif`
+- `Zain`
+
 ## 6.5.0 - 2024-01-18
 ## 6.4.0 - 2024-01-18
 ## 6.3.0 - 2024-01-18
