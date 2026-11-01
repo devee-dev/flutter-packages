@@ -20,9 +20,7 @@ import 'package:http/http.dart' as http;
 
 import '../google_fonts.dart';
 import 'asset_manifest.dart';
-import 'file_io.dart' // Stubbed implementation by default.
-    // Concrete implementation if File IO is available.
-    if (dart.library.io) 'file_io_desktop_and_mobile.dart' as file_io;
+import 'file_io.dart' as file_io;
 import 'google_fonts_descriptor.dart';
 import 'google_fonts_family_with_variant.dart';
 import 'google_fonts_variant.dart';
